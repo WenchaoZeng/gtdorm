@@ -20,6 +20,14 @@
 }
 "Files"
 {
+    "includes\\HTML Page1.htm"
+    {
+    "ProjRelPath" = "T"
+    }
+    "includes"
+    {
+    "ProjRelPath" = "T"
+    }
     "index.php"
     {
     "ProjRelPath" = "T"
