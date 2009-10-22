@@ -9,11 +9,6 @@ class sql_execute
 		//$this->sql_execute($str);	
 		$this->str = $str;
 	}
-	
-//	function sql_execute($st)
-//	{
-//		$this->str = $st;
-//	}
 		
 	function display()
 	{
