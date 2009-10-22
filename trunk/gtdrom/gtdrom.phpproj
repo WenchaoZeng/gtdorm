@@ -28,6 +28,10 @@
     {
     "ProjRelPath" = "T"
     }
+    "styles\\image\\样式图片.txt"
+    {
+    "ProjRelPath" = "T"
+    }
     "styles"
     {
     "ProjRelPath" = "T"
@@ -44,6 +48,10 @@
     {
     "ProjRelPath" = "T"
     }
+    "gtdrom.puo"
+    {
+    "ProjRelPath" = "T"
+    }
     "styles\\样式文件.txt"
     {
     "ProjRelPath" = "T"
@@ -53,6 +61,10 @@
     "ProjRelPath" = "T"
     }
     "index.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\image"
     {
     "ProjRelPath" = "T"
     }
