@@ -20,43 +20,7 @@
 }
 "Files"
 {
-    "data\\数据访问.txt"
-    {
-    "ProjRelPath" = "T"
-    }
-    "home.htm"
-    {
-    "ProjRelPath" = "T"
-    }
-    "styles\\image\\样式图片.txt"
-    {
-    "ProjRelPath" = "T"
-    }
-    "styles"
-    {
-    "ProjRelPath" = "T"
-    }
-    "includes"
-    {
-    "ProjRelPath" = "T"
-    }
-    "includes\\包含的文件部分（插件）.txt"
-    {
-    "ProjRelPath" = "T"
-    }
-    "testcase\\测试用的php文件.txt"
-    {
-    "ProjRelPath" = "T"
-    }
-    "gtdrom.puo"
-    {
-    "ProjRelPath" = "T"
-    }
-    "styles\\样式文件.txt"
-    {
-    "ProjRelPath" = "T"
-    }
-    "includes\\HTML Page1.htm"
+    "styles\\image"
     {
     "ProjRelPath" = "T"
     }
@@ -64,15 +28,55 @@
     {
     "ProjRelPath" = "T"
     }
-    "styles\\image"
+    "styles\\样式文件.txt"
     {
     "ProjRelPath" = "T"
     }
-    "testcase"
+    "testcase\\test.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "includes\\包含的文件部分（插件）.txt"
+    {
+    "ProjRelPath" = "T"
+    }
+    "gtdrom.puo"
+    {
+    "ProjRelPath" = "T"
+    }
+    "testcase\\测试用的php文件.txt"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles"
+    {
+    "ProjRelPath" = "T"
+    }
+    "home.htm"
+    {
+    "ProjRelPath" = "T"
+    }
+    "data\\数据访问.txt"
     {
     "ProjRelPath" = "T"
     }
     "data"
+    {
+    "ProjRelPath" = "T"
+    }
+    "includes"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\image\\样式图片.txt"
+    {
+    "ProjRelPath" = "T"
+    }
+    "includes\\HTML Page1.htm"
+    {
+    "ProjRelPath" = "T"
+    }
+    "testcase"
     {
     "ProjRelPath" = "T"
     }
