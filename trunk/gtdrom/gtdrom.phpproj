@@ -24,11 +24,15 @@
     {
     "ProjRelPath" = "T"
     }
+    "index.php"
+    {
+    "ProjRelPath" = "T"
+    }
     "includes"
     {
     "ProjRelPath" = "T"
     }
-    "index.php"
+    "home.htm"
     {
     "ProjRelPath" = "T"
     }
