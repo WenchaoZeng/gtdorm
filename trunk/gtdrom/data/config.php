@@ -1,9 +1,9 @@
 <?php
 
 // 数据库配置信息
-$db_host = "localhost:3306";
-$db_name  = "ecshop";
-$db_user = "root";
-$db_pass = "";
+$db_host = "db4free.net";
+$db_name  = "gtdorm";
+$db_user = "gteam";
+$db_pass = "gteam_321";
 
 ?>
