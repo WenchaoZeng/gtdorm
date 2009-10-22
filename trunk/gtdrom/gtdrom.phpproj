@@ -20,6 +20,10 @@
 }
 "Files"
 {
+    "testcase\\index1.php"
+    {
+    "ProjRelPath" = "T"
+    }
     "styles\\image"
     {
     "ProjRelPath" = "T"
