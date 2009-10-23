@@ -57,6 +57,7 @@ class sqlhelper
 		mysql_query("SET NAMES 'GBK'");  //设置查询结果为中文	
 		mysql_select_db($db_name,$db) or die("数据库不存在！");
 		$result = mysql_query($cmd) or die("查询失败 ！");
+		mysql_close($db);
 		return $result;
 	}
 	
