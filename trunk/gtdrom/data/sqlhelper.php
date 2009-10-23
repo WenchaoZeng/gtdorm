@@ -5,17 +5,7 @@
  */
 include('config.php');
 class sqlhelper
-{
-	
-	/**
-	 * 私有成员
-	 */
-	/*private $dbhost = '';
-	private $dbuser ='' ;
-	private $dbpassword = '';
-	private $dbdatabase = '';*/
-	
-	
+{	
 	/**
 	 * 构造函数
 	 */
@@ -23,7 +13,6 @@ class sqlhelper
 	{
 		
 	}
-	
 	
 	/**
 	 * 析构函数
@@ -33,20 +22,8 @@ class sqlhelper
 		echo "析构函数<br />";
 	}
 	
-	
 	/**
-	 * This is method say
-	 *@access public
-	 * @return string a word to say something
-	 *
-	 */
-	public static function say()
-	{
-		return self::$word;
-	}
-	
-	/**
-	 * This is a query method
+	 * 执行查询操作
 	 * @access public
 	 * @return table
 	 */
@@ -61,7 +38,14 @@ class sqlhelper
 		return $result;
 	}
 	
-	public static function process($cmd)
+	
+	/**
+	 * 执行删除、跟新、等操作。无返回
+	 *
+	 * @param mixed $cmd This is a description
+	 * @return mixed This is the return value description
+	 *
+	 */	public static function process($cmd)
 	{
 		global $db_host,$db_user,$db_pass,$db_name;
 		$db = mysql_connect($db_host,$db_user,$db_pass) or die("连接数据库失败！");
@@ -71,11 +55,7 @@ class sqlhelper
 		$rows_count = mysql_affected_rows();
 		mysql_close($db);
 		return $rows_count;
-	}
-	
-	
-	
-	
+	}	
 }
 
 ?>
