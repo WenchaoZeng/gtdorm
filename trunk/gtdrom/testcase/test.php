@@ -1,8 +1,9 @@
 <?php
-
-include ('index1.php');
-
-$sql = new sql_execute("hello ryan");
-$sql->display();
+include_once("../data/sqlhelper.php");
+$result = sqlhelper::query('select * from test');
+while ($row = mysql_fetch_array($result))
+{
+	echo $row['name'];
+}
 
 ?>

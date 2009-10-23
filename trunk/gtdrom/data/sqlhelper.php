@@ -3,15 +3,25 @@
 /**
  *数据库访问帮助器
  */
+include('config.php');
 class sqlhelper
 {
 	
 	/**
+	 * 私有成员
+	 */
+	/*private $dbhost = '';
+	private $dbuser ='' ;
+	private $dbpassword = '';
+	private $dbdatabase = '';*/
+	
+	
+	/**
 	 * 构造函数
 	 */
-	function __construct()
+	function sqlhelper()
 	{
-		echo "构造函数<br />";
+		
 	}
 	
 	
@@ -25,12 +35,6 @@ class sqlhelper
 	
 	
 	/**
-	 * 私有成员
-	 * @var string 
-	 */
-	private static $word = "hello";
-	
-	/**
 	 * This is method say
 	 *@access public
 	 * @return string a word to say something
@@ -40,6 +44,23 @@ class sqlhelper
 	{
 		return self::$word;
 	}
+	
+	/**
+	 * This is a query method
+	 * @access public
+	 * @return table
+	 */
+	public static function query($cmd)
+	{
+		$db = mysql_connect($db_host,$db_user,$db_pass);
+		mysql_select_db($db_name,$db);
+		mysql_query("SET NAMES 'GBK'");	
+		$sql = $cmd;
+		$result = mysql_query($sql);
+		return $result;
+	}
+	
+	
 }
 
 ?>
