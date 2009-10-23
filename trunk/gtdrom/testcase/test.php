@@ -1,9 +1,11 @@
 <?php
-include_once("../data/sqlhelper.php");
-$result = sqlhelper::query('select * from test');
-while ($row = mysql_fetch_array($result))
+include ("../data/sqlhelper.php");
+
+$result  = sqlhelper::query("select * from test");
+while($row  = mysql_fetch_array($result))
 {
-	echo $row['name'];
+	echo "$row[0]  ";
+	echo "$row[1]<br>";
 }
 
 ?>
