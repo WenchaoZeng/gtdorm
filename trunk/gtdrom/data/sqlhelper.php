@@ -67,9 +67,10 @@ class sqlhelper
 		$db = mysql_connect($db_host,$db_user,$db_pass) or die("连接数据库失败！");
 		mysql_query("SET NAMES 'GBK'");  //设置查询结果为中文	
 		mysql_select_db($db_name,$db) or die("数据库不存在！");
-		mysql_query($cmd,$db);
+		mysql_query($cmd,$db) or die("操作错误！");
 		$rows_count = mysql_affected_rows();
 		mysql_close($db);
+		return $rows_count;
 	}
 	
 	
