@@ -20,15 +20,7 @@
 }
 "Files"
 {
-    "includes\\HTML Page1.htm"
-    {
-    "ProjRelPath" = "T"
-    }
-    "images\\html里直接用到的图片.txt"
-    {
-    "ProjRelPath" = "T"
-    }
-    "styles\\image"
+    "includes\\包含的文件部分（插件）.txt"
     {
     "ProjRelPath" = "T"
     }
@@ -40,7 +32,27 @@
     {
     "ProjRelPath" = "T"
     }
-    "testcase"
+    "testcase\\测试用的php文件.txt"
+    {
+    "ProjRelPath" = "T"
+    }
+    "gtdrom.puo"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles"
+    {
+    "ProjRelPath" = "T"
+    }
+    "includes"
+    {
+    "ProjRelPath" = "T"
+    }
+    "data"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\image"
     {
     "ProjRelPath" = "T"
     }
@@ -48,7 +60,7 @@
     {
     "ProjRelPath" = "T"
     }
-    "data"
+    "images\\html里直接调用的图片.txt"
     {
     "ProjRelPath" = "T"
     }
@@ -60,19 +72,15 @@
     {
     "ProjRelPath" = "T"
     }
-    "gtdrom.puo"
+    "includes\\HTML Page1.htm"
     {
     "ProjRelPath" = "T"
     }
-    "testcase\\测试用的php文件.txt"
+    "data\\config.php"
     {
     "ProjRelPath" = "T"
     }
-    "includes\\包含的文件部分（插件）.txt"
-    {
-    "ProjRelPath" = "T"
-    }
-    "data\\sqlhelper.php"
+    "testcase"
     {
     "ProjRelPath" = "T"
     }
@@ -80,11 +88,11 @@
     {
     "ProjRelPath" = "T"
     }
-    "includes"
+    "data\\sqlhelper.php"
     {
     "ProjRelPath" = "T"
     }
-    "data\\config.php"
+    "images\\html里直接用到的图片.txt"
     {
     "ProjRelPath" = "T"
     }
@@ -93,10 +101,6 @@
     "ProjRelPath" = "T"
     }
     "testcase\\zwc_test1.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "styles"
     {
     "ProjRelPath" = "T"
     }
