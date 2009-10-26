@@ -20,11 +20,15 @@
 }
 "Files"
 {
+    "Hello\\Hellosss.htm"
+    {
+    "ProjRelPath" = "T"
+    }
     "images\\html里直接调用的图片.txt"
     {
     "ProjRelPath" = "T"
     }
-    "images"
+    "styles\\image\\样式图片.txt"
     {
     "ProjRelPath" = "T"
     }
@@ -32,15 +36,35 @@
     {
     "ProjRelPath" = "T"
     }
+    "includes\\包含的文件部分（插件）.txt"
+    {
+    "ProjRelPath" = "T"
+    }
+    "images"
+    {
+    "ProjRelPath" = "T"
+    }
+    "testcase\\index4.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "includes"
+    {
+    "ProjRelPath" = "T"
+    }
     "includes\\sqlhelper.php"
     {
     "ProjRelPath" = "T"
     }
-    "Hello\\test.php"
+    "styles\\样式文件.txt"
     {
     "ProjRelPath" = "T"
     }
-    "includes\\config.php"
+    "testcase"
+    {
+    "ProjRelPath" = "T"
+    }
+    "index.php"
     {
     "ProjRelPath" = "T"
     }
@@ -48,7 +72,15 @@
     {
     "ProjRelPath" = "T"
     }
-    "styles\\image"
+    "welcome.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Hello\\test.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Hello"
     {
     "ProjRelPath" = "T"
     }
@@ -60,43 +92,15 @@
     {
     "ProjRelPath" = "T"
     }
-    "styles\\image\\样式图片.txt"
-    {
-    "ProjRelPath" = "T"
-    }
-    "styles\\样式文件.txt"
-    {
-    "ProjRelPath" = "T"
-    }
-    "Hello\\Hellosss.htm"
-    {
-    "ProjRelPath" = "T"
-    }
-    "Hello"
-    {
-    "ProjRelPath" = "T"
-    }
-    "index.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "includes\\包含的文件部分（插件）.txt"
-    {
-    "ProjRelPath" = "T"
-    }
-    "welcome.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "includes"
-    {
-    "ProjRelPath" = "T"
-    }
-    "testcase"
+    "includes\\config.php"
     {
     "ProjRelPath" = "T"
     }
     "testcase\\test.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\image"
     {
     "ProjRelPath" = "T"
     }
