@@ -5,15 +5,15 @@
  */
 include('config.php');
 class sqlhelper
-{	
+{
 	/**
 	 * 构造函数
 	 */
 	function sqlhelper()
 	{
-		
+
 	}
-	
+
 	/**
 	 * 析构函数
 	 */
@@ -21,7 +21,7 @@ class sqlhelper
 	{
 		echo "析构函数<br />";
 	}
-	
+
 	/**
 	 * 执行查询操作
 	 * @access public
@@ -37,8 +37,8 @@ class sqlhelper
 		mysql_close($db);
 		return $result;
 	}
-	
-	
+
+
 	/**
 	 * 执行删除、跟新、等操作。无返回
 	 *
@@ -55,7 +55,7 @@ class sqlhelper
 		$rows_count = mysql_affected_rows();
 		mysql_close($db);
 		return $rows_count;
-	}	
+	}
 }
 
 ?>
