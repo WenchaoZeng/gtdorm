@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
-Project("{1863889A-00DF-4350-BA39-669CA949CB81}") = "gtdorm", "gtdorm.phpproj", "{9F2822E2-6964-40F7-A6B6-FF5AA3019B7D}"
+Project("{1863889A-00DF-4350-BA39-669CA949CB81}") = "gtdorm", "gtdorm.phpproj", "{0377D030-AB36-48CA-AE16-0ED4713A081A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,12 +10,12 @@ Global
 		Staging|PHP 5 = Staging|PHP 5
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9F2822E2-6964-40F7-A6B6-FF5AA3019B7D}.Local|PHP 5.ActiveCfg = Local|PHP 5
-		{9F2822E2-6964-40F7-A6B6-FF5AA3019B7D}.Local|PHP 5.Deploy.0 = Local|PHP 5
-		{9F2822E2-6964-40F7-A6B6-FF5AA3019B7D}.Production|PHP 5.ActiveCfg = Production|PHP 5
-		{9F2822E2-6964-40F7-A6B6-FF5AA3019B7D}.Production|PHP 5.Deploy.0 = Production|PHP 5
-		{9F2822E2-6964-40F7-A6B6-FF5AA3019B7D}.Staging|PHP 5.ActiveCfg = Staging|PHP 5
-		{9F2822E2-6964-40F7-A6B6-FF5AA3019B7D}.Staging|PHP 5.Deploy.0 = Staging|PHP 5
+		{0377D030-AB36-48CA-AE16-0ED4713A081A}.Local|PHP 5.ActiveCfg = Local|PHP 5
+		{0377D030-AB36-48CA-AE16-0ED4713A081A}.Local|PHP 5.Deploy.0 = Local|PHP 5
+		{0377D030-AB36-48CA-AE16-0ED4713A081A}.Production|PHP 5.ActiveCfg = Production|PHP 5
+		{0377D030-AB36-48CA-AE16-0ED4713A081A}.Production|PHP 5.Deploy.0 = Production|PHP 5
+		{0377D030-AB36-48CA-AE16-0ED4713A081A}.Staging|PHP 5.ActiveCfg = Staging|PHP 5
+		{0377D030-AB36-48CA-AE16-0ED4713A081A}.Staging|PHP 5.Deploy.0 = Staging|PHP 5
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
