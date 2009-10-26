@@ -80,6 +80,10 @@
     {
     "ProjRelPath" = "T"
     }
+    "Hello"
+    {
+    "ProjRelPath" = "T"
+    }
     "includes\\包含的文件部分（插件）.txt"
     {
     "ProjRelPath" = "T"
