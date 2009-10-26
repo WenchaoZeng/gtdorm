@@ -1,0 +1,112 @@
+"General"
+{
+"ProjectType" = "local"
+"AutoLoadTemplate" = "%s.php;class.%s.php;"
+}
+"Configurations"
+{
+    "Local|PHP 5"
+    {
+    "IncludeDirs" = ""
+    }
+    "Staging|PHP 5"
+    {
+    "IncludeDirs" = ""
+    }
+    "Production|PHP 5"
+    {
+    "IncludeDirs" = ""
+    }
+}
+"Files"
+{
+    "testcase\\index1.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "images"
+    {
+    "ProjRelPath" = "T"
+    }
+    "testcase"
+    {
+    "ProjRelPath" = "T"
+    }
+    "testcase\\zwc_test1.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "includes\\sqlhelper.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\样式文件.txt"
+    {
+    "ProjRelPath" = "T"
+    }
+    "testcase\\test.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "includes"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\css"
+    {
+    "ProjRelPath" = "T"
+    }
+    ".vsphpignore"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\image\\样式图片.txt"
+    {
+    "ProjRelPath" = "T"
+    }
+    "images\\html里直接调用的图片.txt"
+    {
+    "ProjRelPath" = "T"
+    }
+    "index.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "welcome.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "testcase\\测试用的php文件.txt"
+    {
+    "ProjRelPath" = "T"
+    }
+    "includes\\config.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "includes\\包含的文件部分（插件）.txt"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\image"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\css\\css样式表.txt"
+    {
+    "ProjRelPath" = "T"
+    }
+}
+"ProjStartupServices"
+{
+}
+"Globals"
+{
+}
+"References"
+{
+}
