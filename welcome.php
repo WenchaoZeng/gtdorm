@@ -14,7 +14,7 @@
 
 
 <div id="content">
-
+	<h2>欢迎使用gtdorm宿舍管理系统</h2>
 </div><!-- end of  content -->
 
 </body>
