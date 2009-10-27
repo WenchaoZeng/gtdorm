@@ -1,0 +1,117 @@
+学生信息：
+字段信息					字段名称					字段类型					字段属性				
+
+  编号							ID							   bigint						   主键
+  学院						Institute						  varchar(40)				  not null
+  班级						   Class						  varchar(40)				  not null					
+  学号						StudentID					     bigint				      not null
+  姓名						   Name							varchar(20)			  not null
+  性别							Sex							 enum("男","女")		  not null
+  民族							Race							varchar(40)			  not null
+  出身日期					 BirthDate						 date						  not null
+  家庭住址					  Address						 varchar(100)			  not null
+  政治面貌					PoliticalStatus					 varchar(20)			  not null
+  学制						AcademicType				  bigint					  not null
+  类别							Type							  varchar(20)			  not null	
+  家庭电话					 HomeTelephone			  char(16)				  not null
+  校区							Campus						  varchar(20)			  not null
+  入学时间					  AdmissionTime				year					  not null
+  毕业时间					  GraduationTime				year					  not null
+  身份证号码				IdentificationID					bigint				  not null
+  父亲名							FatherName					vahrchar(20)		  not null
+  父亲单位						FatherUnit						vharchar（40）    not null
+  母亲姓名						MotherName					varchar(20)          not null
+  母亲单位						MotherUnit					varchar(40)		  not null
+  备注							Remark							varchar(100)		  enable null
+	
+
+宿舍信息:
+字段信息					字段名称					字段类型					字段属性
+
+  编号								ID								bigint					主键
+  校区							Campus						varchar(20)			  not null
+  区								Region						varchar(20)			  enalble null
+  楼栋							Block						varchar(20)			  not null
+  宿舍号							DormitoryID					int						  not null
+  宿舍类型						 Type							int						  not null(四人间，三人间，两人间)
+  宿舍电话						Telephone						cahr(16)				  enable null
+  
+  
+住宿信息：
+字段信息					字段名称					字段类型					字段属性
+   编号						  ID								bigint						not null
+   学号						StudentID						bigint						外键	
+ 宿舍编号					DormID							bigint						外键（宿舍信息中的ID）			
+ 				
+  
+
+住宿调整申请表:
+ 字段信息					字段名称					字段类型					字段属性
+   编号							ID							    bigint				      主键
+   学院						Institute						varchar(40)				 not null
+   班级						  Class						varchar(40)				 not null
+   原住宿舍					OriginalDorm				varchar(40)				 not null
+   拟住宿舍					ApplyDorm				varchar(40)				 not null
+   联系方法					Connect						 char(16)				     not null
+   变动原因					Reason						    text						 not null
+   申请人签字				ApplySign						varchar(20)			 not null
+   申请日期					ApplySignDate				datetime		         not null
+   班级意见					ClassComment				text						 not null
+   班级负责人签字		ClassSign						varchar(20)			 not null
+   班级签字日期			ClassSignDate				datetime				 not null
+   学院意见					InstituteComment			text						 not null
+   学院负责人签字		InstituteSign			       varchar(20)			     not null
+   学院签字日期			InstituteSignDate			datetime				 not null
+   学校意见					SchoolComemnt				text						 not null
+   学校负责人签字		SchoolSign					varcahr(20)			 not null
+   学校签字时间			SchoolSignDate				datetime				 not null
+   审批状态					Status							bool						 not null
+   
+
+宣传活动申请表：
+ 字段信息					字段名称					字段类型					字段属性
+	编号							ID								bigint						主键
+	申请部门				ApplyDepartment			varchar(40)			not null
+	联系方式				Connect							char(16)					not null
+	活动主题				Title								varchar(40)			not null
+	招牌数量				Board							int							not null
+	摆放开始时间			BoardBeginTime			datetime				not null
+	摆放结束时间			BoardEndTime				datetime				not null
+	简要内容				BoardContent				text						not null
+	横幅数量				BannerNum					int							not null
+	批准号					ValidateNum					varchar(40)			not null
+	摆摊事由				StallReason					text						not null
+	摆摊开始时间			StallBeginTime				datetime				not null			
+	摆摊结束时间			StallEndTime					datetime				not null
+	传单内容				LeafletsContent				text						not null
+	责任部门意见			ResDepartComment		text					    not null
+	责任部门领导签字    ResDepartLeaderSign		varchar(20)			not null
+	责任部门签字日期	ResDepartSignDate		datetime				not null
+	主管部门意见			ChiefDepartComment		text						not null
+	主管部门领导签字	ChiefDepartSign				varchar(20)			not null
+	助管部门签字日期	ChiefDepartSignDate		datetime				not null
+	审批状态					Status						  bool				    not null
+	
+	----以下表均无参考资料----					  
+文明宿舍活动申请：
+
+学位服租借：					
+ 
+空房宿舍申请：
+
+宿舍评分：
+
+宿舍违纪（处理结果反馈）：
+
+典型宿舍一览表：
+
+各楼栋信息：
+ 字段信息					字段名称					字段类型					字段属性
+   编号							ID								int								主键
+   校区						Campus					varchar(20)			          not null
+   区							Region						varchar(20)				enalble null
+   楼栋						Block						varchar(20)				  not null
+   联系电话					PhoneNum				char(16)				         not null
+   
+   
+
