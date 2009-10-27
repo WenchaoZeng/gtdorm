@@ -3,7 +3,7 @@
 /**
  *Êı¾İ¿â·ÃÎÊ°ïÖúÆ÷
  */
-include('config.php');
+include('../config.php');
 class sqlhelper
 {
 	/**

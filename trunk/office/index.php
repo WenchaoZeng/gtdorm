@@ -9,7 +9,7 @@
 <body>
 
 <?php require_once("../includes/widgets/header.php"); ?>
-
+<?php require_once("../includes/widgets/office.php")?>
 
 <div id="content">
 
