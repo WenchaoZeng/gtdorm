@@ -20,123 +20,7 @@
 }
 "Files"
 {
-    "includes\\widgets"
-    {
-    "ProjRelPath" = "T"
-    }
-    "includes\\widgets\\页面挂件.txt"
-    {
-    "ProjRelPath" = "T"
-    }
-    "images"
-    {
-    "ProjRelPath" = "T"
-    }
-    "includes\\widgets\\resource.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "testcase"
-    {
-    "ProjRelPath" = "T"
-    }
-    "query\\数据查询模块的管理页面.txt"
-    {
-    "ProjRelPath" = "T"
-    }
-    "resource"
-    {
-    "ProjRelPath" = "T"
-    }
-    "Hello\\test.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "system\\系统维护的管理页面.txt"
-    {
-    "ProjRelPath" = "T"
-    }
-    "includes\\sqlhelper.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "includes\\widgets\\query.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "includes\\widgets\\system.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "styles\\样式文件.txt"
-    {
-    "ProjRelPath" = "T"
-    }
-    "system"
-    {
-    "ProjRelPath" = "T"
-    }
-    "testcase\\test.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "includes"
-    {
-    "ProjRelPath" = "T"
-    }
-    "styles\\css"
-    {
-    "ProjRelPath" = "T"
-    }
-    "styles\\image\\样式图片.txt"
-    {
-    "ProjRelPath" = "T"
-    }
-    "images\\html里直接调用的图片.txt"
-    {
-    "ProjRelPath" = "T"
-    }
-    "index.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "welcome.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "testcase\\测试用的php文件.txt"
-    {
-    "ProjRelPath" = "T"
-    }
-    "testcase\\index4.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "includes\\config.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "Hello"
-    {
-    "ProjRelPath" = "T"
-    }
-    "office"
-    {
-    "ProjRelPath" = "T"
-    }
-    "Hello\\Hello.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "includes\\包含的文件部分（插件）.txt"
-    {
-    "ProjRelPath" = "T"
-    }
-    "login.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "styles\\image"
+    "styles\\css\\css样式表.txt"
     {
     "ProjRelPath" = "T"
     }
@@ -144,15 +28,11 @@
     {
     "ProjRelPath" = "T"
     }
-    "resource\\index.php"
+    "office"
     {
     "ProjRelPath" = "T"
     }
-    "styles"
-    {
-    "ProjRelPath" = "T"
-    }
-    "office\\index.php"
+    "system\\系统维护的管理页面.txt"
     {
     "ProjRelPath" = "T"
     }
@@ -160,15 +40,95 @@
     {
     "ProjRelPath" = "T"
     }
+    "includes\\widgets\\页面挂件.txt"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\image"
+    {
+    "ProjRelPath" = "T"
+    }
+    "images\\html里直接调用的图片.txt"
+    {
+    "ProjRelPath" = "T"
+    }
+    "includes\\sqlhelper.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\样式文件.txt"
+    {
+    "ProjRelPath" = "T"
+    }
+    "query\\数据查询模块的管理页面.txt"
+    {
+    "ProjRelPath" = "T"
+    }
+    "testcase\\index4.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "resource\\宿舍资源的管理页面.txt"
+    {
+    "ProjRelPath" = "T"
+    }
+    "resource\\index.php"
+    {
+    "ProjRelPath" = "T"
+    }
     "Hello\\Hellosss.htm"
     {
     "ProjRelPath" = "T"
     }
-    "query"
+    "Hello\\test.php"
     {
     "ProjRelPath" = "T"
     }
-    "query\\index.php"
+    "index.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "includes\\widgets\\resource.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "images"
+    {
+    "ProjRelPath" = "T"
+    }
+    "includes\\包含的文件部分（插件）.txt"
+    {
+    "ProjRelPath" = "T"
+    }
+    "includes"
+    {
+    "ProjRelPath" = "T"
+    }
+    "includes\\widgets\\system.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "office\\index.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "testcase\\test.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Hello\\Hello.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Hello"
     {
     "ProjRelPath" = "T"
     }
@@ -176,15 +136,55 @@
     {
     "ProjRelPath" = "T"
     }
+    "system"
+    {
+    "ProjRelPath" = "T"
+    }
     "office\\在线办公的管理页面.txt"
     {
     "ProjRelPath" = "T"
     }
-    "styles\\css\\css样式表.txt"
+    "welcome.php"
     {
     "ProjRelPath" = "T"
     }
-    "resource\\宿舍资源的管理页面.txt"
+    "query\\index.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "includes\\widgets"
+    {
+    "ProjRelPath" = "T"
+    }
+    "includes\\widgets\\query.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "login.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "query"
+    {
+    "ProjRelPath" = "T"
+    }
+    "includes\\config.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\image\\样式图片.txt"
+    {
+    "ProjRelPath" = "T"
+    }
+    "testcase"
+    {
+    "ProjRelPath" = "T"
+    }
+    "testcase\\测试用的php文件.txt"
+    {
+    "ProjRelPath" = "T"
+    }
+    "resource"
     {
     "ProjRelPath" = "T"
     }
