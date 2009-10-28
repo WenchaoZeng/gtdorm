@@ -113,7 +113,7 @@
    楼栋						Block						varchar(20)				  not null
    联系电话					PhoneNum				char(16)				         not null
    
-登陆用户表
+登陆用户表: Users
  字段信息					字段名称					字段类型					字段属性
 	编号							ID								int								主键
 	用户名						UserName					varchar(20)				not null

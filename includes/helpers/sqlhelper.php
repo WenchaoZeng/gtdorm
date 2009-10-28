@@ -1,9 +1,12 @@
 <?php
+$path = dirname(__FILE__);
+
+require_once ($path.'/../config.php');
 
 /**
  *Êý¾Ý¿â·ÃÎÊ°ïÖúÆ÷
  */
-include('../config.php');
+
 class sqlhelper
 {
 	/**
