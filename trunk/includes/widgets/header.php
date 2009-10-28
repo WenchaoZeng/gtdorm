@@ -10,9 +10,9 @@
 
 <!-- 管理员导航 -->
 <ul id="admin_nav">
-	<li><a href="#">用户资料</a></li>
-	<li><a href="#">管理员设置</a></li>
-	<li><a href="#">退出系统</a></li>
+	<li><a id="user_data" href="#">用户资料</a></li>
+	<li><a id="maneger" href="#">管理员设置</a></li>
+	<li><a id="exit" href="#">退出系统</a></li>
 </ul>
 
 <!-- 主导航条 -->

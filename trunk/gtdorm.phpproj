@@ -20,6 +20,14 @@
 }
 "Files"
 {
+    "styles\\image\\exit-icon.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\image\\nav-item-down-bg.png"
+    {
+    "ProjRelPath" = "T"
+    }
     "images"
     {
     "ProjRelPath" = "T"
@@ -37,6 +45,10 @@
     "ProjRelPath" = "T"
     }
     "testcase"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\image\\header-bg.png"
     {
     "ProjRelPath" = "T"
     }
@@ -61,6 +73,10 @@
     "ProjRelPath" = "T"
     }
     "ÎÄµµ"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\image\\nav-item-bg.png"
     {
     "ProjRelPath" = "T"
     }
@@ -144,6 +160,10 @@
     {
     "ProjRelPath" = "T"
     }
+    "styles\\image\\set-icon.png"
+    {
+    "ProjRelPath" = "T"
+    }
     "resource\\index.php"
     {
     "ProjRelPath" = "T"
@@ -164,11 +184,31 @@
     {
     "ProjRelPath" = "T"
     }
+    "styles\\image\\passwordinput-icon.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\image\\user-icon.png"
+    {
+    "ProjRelPath" = "T"
+    }
     "office"
     {
     "ProjRelPath" = "T"
     }
+    "styles\\image\\content-bg.png"
+    {
+    "ProjRelPath" = "T"
+    }
     "includes\\sqlhelper.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\image\\userinput-icon.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\image\\leftbar-item-down-bg.png"
     {
     "ProjRelPath" = "T"
     }
@@ -180,11 +220,19 @@
     {
     "ProjRelPath" = "T"
     }
+    "styles\\image\\left-bar-bg.png"
+    {
+    "ProjRelPath" = "T"
+    }
     "index.php"
     {
     "ProjRelPath" = "T"
     }
     "check.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\image\\submit-btn.png"
     {
     "ProjRelPath" = "T"
     }
@@ -196,11 +244,23 @@
     {
     "ProjRelPath" = "T"
     }
+    "styles\\image\\jump-btn.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\image\\index-content-bg.png"
+    {
+    "ProjRelPath" = "T"
+    }
     "includes\\widgets\\office.php"
     {
     "ProjRelPath" = "T"
     }
     "system\\index.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\image\\leftbar-item-bg.png"
     {
     "ProjRelPath" = "T"
     }
