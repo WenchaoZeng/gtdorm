@@ -1,4 +1,11 @@
 <?php
+session_start();
+//在页首先要开启session,
+//error_reporting(2047);
+session_destroy();
+
+require_once ("includes/helpers/sqlhelper.php");
+
 /**
  * 后台登录页面
  * Created by zwc at 2009年10月27日
@@ -12,6 +19,7 @@
  */
 function Login($username, $password, $checkcode)
 {
+	$checkNum = $_SESSION["authnum_session"];
 	// 验证输入有效性及安全性
 	if ($username == "" || $password == "" || $checkcode == "")
 	{
@@ -19,9 +27,16 @@ function Login($username, $password, $checkcode)
 	}
 
 	// 验证
-	if ($username != $password)
+	$result = sqlhelper::query("select UserName,Password from Users where UserName = '$username'");
+	$row = mysql_fetch_array($result);
+	
+	if ($password != $row["Password"])
 	{
-		return "用户名和密码要一样";
+		return "用户名或密码不正确！";
+	}
+	else if($checkcode != $_SESSION['authnum_session'])
+	{
+		return "验证码不正确！";
 	}
 	else
 	{
@@ -48,8 +63,17 @@ if ($_POST["submit"])
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title>宿舍管理系统</title>
+<script language="javascript">
+<!--
+function update()
+	{
+		var img  = document.getElementById('check');
+		img.src="check.php";
+	}
+	-->
+</script>
 </head>
-<body>
+<body onload="window.document.forms[0].username.focus();">
 	<h1>宿舍管理系统</h1>
     
 	<form id="login" name="login" method="post" action="login.php">
@@ -62,12 +86,13 @@ if ($_POST["submit"])
 
         <label for="checkcode">验证码：</label>
         <input type="text" id="checkcode" name="checkcode" />
-        <img src="#" alt="点击刷新">
+        <img id="check" src="check.php" alt="点击刷新" title="看不清？点击更换另一张验证码。" style="cursor:pointer;" onclick= "javascript:this.src='check.php?tm='+Math.random()" />
 
         <input type="submit" id="submit" name="submit" value="进入" />
 	</form>
     
     <script type="text/javascript">
+	
     	<?php echo $script;?>
     </script>
 	
