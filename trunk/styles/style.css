@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(reset.css);
+/*全局*/
+html{background:#C5CAC5;font-family:"微软雅黑", "宋体";}
+
+
+
+/*head*/
+#header-area{position:relative;width:1262px;height:162px;background:url(images/header-bg.png) no-repeat;}
+#helper-nav{display:block;width:300px;height:20px;float:right;margin-top:5px;}
+#helper-nav li{display:inline-block;}
+#helper-nav li{*display:inline;}
+#helper-nav li a{display:block;width:70px;height:20px;color:#333;font-size:13px;*font-size:12px;font-weight:bold;text-decoration:none;padding-left:20px;line-height:22px;*line-height:24px;}
+#helper-nav li a:hover{color:#990000;text-decoration:underline;}
+#user-data{background:url(images/user-icon.png) no-repeat;}
+#maneger{background:url(images/set-icon.png) no-repeat;}
+#exit{background:url(images/exit-icon.png) no-repeat;}
+#nav{position:absolute;right:0;top:110px;display:block;width:870px;height:50px;}
+#nav li{display:inline-block;}
+#nav li{*display:inline;}
+#nav li a{display:block;width:111px;height:38px;background:url(images/nav-item-bg.png) no-repeat;color:#222;font-size:14px;font-weight:bold;text-decoration:none;text-align:center;line-height:30px;margin:5px 20px;}
+.nav-selected{background:url(images/nav-item-down-bg.png) no-repeat !important;}
+
+/*leftbar*/
+#leftbar{position:relative;width:245;height:617px;background:url(images/left-bar-bg.png) no-repeat;margin:5px 0 5px 5px;}
+#leftbar-list{position:absolute;display:block;width:205px;height:350px;margin-top:40px;margin-left:20px;}
+#leftbar-list li a{display:block;width:201px;height:42px;margin:30px 0 0 0;background:url(images/leftbar-item-bg.png) no-repeat;font-size:14px;font-weight:bold;color:#222;text-decoration:none;text-align:center;line-height:38px;}
+#leftbar-list li a:hover{background:url(images/leftbar-item-down-bg.png) no-repeat;color:#fff;}
+.leftbar-list-selected{background:url(images/leftbar-item-down-bg.png) no-repeat !important;color:#fff !important;}
+#team-info{position:absolute;bottom:65px;right:15px;color:#fff;font-size:12px;}
+#team-info a{font-weight:bold;color:#FFFFFF;text-decoration:none;}
+#team-info a:hover{color:#FF3300;text-decoration:underline;}
+
+/*main content*/
+
+#content-area{float:right;width:1006px;height:619px;margin-top:-622px;margin-right:3px;background:url(images/content-bg.png) no-repeat;}
+
+
+
+
+
+
