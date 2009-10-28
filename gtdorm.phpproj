@@ -164,6 +164,10 @@
     {
     "ProjRelPath" = "T"
     }
+    "styles\\image\\bg.png"
+    {
+    "ProjRelPath" = "T"
+    }
     "resource\\index.php"
     {
     "ProjRelPath" = "T"
