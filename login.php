@@ -67,7 +67,9 @@ if ($_POST["submit"])
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
 <title>宿舍管理系统</title>
+<link rel="stylesheet" type="text/css" href="styles/style.css" />
 <script language="javascript">
 <!--
 function update()
@@ -78,20 +80,20 @@ function update()
 	-->
 </script>
 </head>
-<body onload="window.document.forms[0].username.focus();">
+<body onload="window.document.forms[0].username.focus();" id="login-body">
 	<h1>宿舍管理系统</h1>
     
 	<form id="login" name="login" method="post" action="login.php">
     
     	<label for="username">用户名：</label>
-		<input type="text" id="username" name="username" value="<?= $_POST["username"]?>"/>
+		<input type="text" id="username" name="username" value="<?= $_POST["username"]?>"/><br />
 
-        <label for="password">密码：</label>
-        <input type="password" id="password" name="password" />
+        <label for="password">密&nbsp;&nbsp;&nbsp;码：</label>
+        <input type="password" id="password" name="password" /><br />
 
         <label for="checkcode">验证码：</label>
         <input type="text" id="checkcode" name="checkcode" />
-        <img id="check" src="check.php" alt="点击刷新" title="看不清？点击更换另一张验证码。" style="cursor:pointer;" onclick= "this.src=this.src+'?'" />
+        <img id="check" src="check.php" alt="点击刷新" title="看不清？点击更换另一张验证码。" style="cursor:pointer;" onclick= "this.src=this.src+'?'" /><br />
 
         <input type="submit" id="submit" name="submit" value="进入" />
 	</form>

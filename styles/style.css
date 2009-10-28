@@ -4,23 +4,38 @@
 /*全局*/
 html{background:#C5CAC5;font-family:"微软雅黑", "宋体";}
 
-
+/*login*/
+#login-body{width:100%;height:620px;background:url(image/login-bg.png) no-repeat 0 -50px fixed;}
+#login-body h1{display:none;}
+#login{position:absolute;top:320px;left:50%;color:#11a9e3;font-size:14px;font-weight:bold;}
+#username,#password{width:150px;height:20px;border:1px solid #a1baff;padding-left:20px;}
+#username{background:url(image/userinput-icon.png) no-repeat;}
+#password{background:url(image/passwordinput-icon.png) no-repeat;margin-left:2px;}
+#checkcode{width:70px;height:20px;border:1px solid #a1baff;}
+#check{position:absolute;left:140px;top:51px;}
+#submit{width:152px;height:28px;border:0;background:url(image/submit-btn.png) no-repeat;text-indent:-9999px;margin:10px 0 0 40px;cursor:pointer;}
 
 /*head*/
-#header-area{position:relative;width:1262px;height:162px;background:url(images/header-bg.png) no-repeat;}
-#helper-nav{display:block;width:300px;height:20px;float:right;margin-top:5px;}
-#helper-nav li{display:inline-block;}
-#helper-nav li{*display:inline;}
-#helper-nav li a{display:block;width:70px;height:20px;color:#333;font-size:13px;*font-size:12px;font-weight:bold;text-decoration:none;padding-left:20px;line-height:22px;*line-height:24px;}
-#helper-nav li a:hover{color:#990000;text-decoration:underline;}
-#user-data{background:url(images/user-icon.png) no-repeat;}
-#maneger{background:url(images/set-icon.png) no-repeat;}
-#exit{background:url(images/exit-icon.png) no-repeat;}
-#nav{position:absolute;right:0;top:110px;display:block;width:870px;height:50px;}
-#nav li{display:inline-block;}
-#nav li{*display:inline;}
-#nav li a{display:block;width:111px;height:38px;background:url(images/nav-item-bg.png) no-repeat;color:#222;font-size:14px;font-weight:bold;text-decoration:none;text-align:center;line-height:30px;margin:5px 20px;}
-.nav-selected{background:url(images/nav-item-down-bg.png) no-repeat !important;}
+#header_area{position:relative;width:100%;height:162px;background:url(image/header-bg.png) no-repeat;}
+#header_area h1{display:none;}
+#welcome{color:#fdf;font-size:14px;font-weight:bold;position:absolute;left:420px;top:75px;}
+#admin_nav{display:block;width:300px;height:20px;float:right;margin-top:5px;}
+#admin_nav li{display:inline-block;}
+#admin_nav li{*display:inline;}
+#admin_nav li a{display:block;width:70px;height:20px;color:#333;font-size:13px;*font-size:12px;font-weight:bold;text-decoration:none;padding-left:20px;line-height:22px;*line-height:24px;}
+#admin_nav li a:hover{color:#990000;text-decoration:underline;}
+#user_data{background:url(image/user-icon.png) no-repeat;}
+#maneger{background:url(image/set-icon.png) no-repeat;}
+#exit{background:url(image/exit-icon.png) no-repeat;}
+#main_nav{position:absolute;right:0;top:110px;display:block;width:870px;height:50px;}
+#main_nav li{display:inline-block;}
+#main_nav li{*display:inline;}
+#main_nav li a{display:block;width:111px;height:38px;background:url(image/nav-item-bg.png) no-repeat;color:#222;font-size:14px;font-weight:bold;text-decoration:none;text-align:center;line-height:30px;margin:5px 20px;}
+#main_nav li a:hover{background:url(image/nav-item-down-bg.png) no-repeat;color:#dff;}
+.nav-selected{background:url(image/nav-item-down-bg.png) no-repeat !important;color:#dff !important;}
+#gteam_info{position:absolute;bottom:65px;right:15px;color:#fff;font-size:12px;}
+#gteam_info a{font-weight:bold;color:#FFFFFF;text-decoration:none;}
+#gteam_info a:hover{color:#FF3300;text-decoration:underline;}
 
 /*leftbar*/
 #leftbar{position:relative;width:245;height:617px;background:url(images/left-bar-bg.png) no-repeat;margin:5px 0 5px 5px;}
@@ -28,9 +43,7 @@ html{background:#C5CAC5;font-family:"微软雅黑", "宋体";}
 #leftbar-list li a{display:block;width:201px;height:42px;margin:30px 0 0 0;background:url(images/leftbar-item-bg.png) no-repeat;font-size:14px;font-weight:bold;color:#222;text-decoration:none;text-align:center;line-height:38px;}
 #leftbar-list li a:hover{background:url(images/leftbar-item-down-bg.png) no-repeat;color:#fff;}
 .leftbar-list-selected{background:url(images/leftbar-item-down-bg.png) no-repeat !important;color:#fff !important;}
-#team-info{position:absolute;bottom:65px;right:15px;color:#fff;font-size:12px;}
-#team-info a{font-weight:bold;color:#FFFFFF;text-decoration:none;}
-#team-info a:hover{color:#FF3300;text-decoration:underline;}
+
 
 /*main content*/
 
@@ -38,6 +51,6 @@ html{background:#C5CAC5;font-family:"微软雅黑", "宋体";}
 
 
 
-
-
+#index_content{width:100%;height:623px;background:url(image/index-content-bg.png) no-repeat center;}
+#index_content h2{display:none;}
 
