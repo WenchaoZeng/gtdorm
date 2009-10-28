@@ -14,7 +14,10 @@
 <?php require_once("../includes/widgets/header.php"); ?>
 </div>
 
+<div id="leftbar">
 <?php require_once("../includes/widgets/office.php")?>
+</div>
+
 
 <div id="content">
 
