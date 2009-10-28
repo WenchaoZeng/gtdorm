@@ -16,7 +16,8 @@ for($i=1;$i<=4;$i++)
 	$authnum_session.= $str[$num];
 	//将通过数字得来的字符连起来一共是四位;
 }
-session_register("authnum_session");
+$_SESSION['code'] = $authnum_session;
+//session_register("authnum_session");
 //用session来做验证也不错;注册session,名称为authnum_session,
 //其它页面只要包含了该图片
 //即可以通过$_SESSION["authnum_session"]来调用

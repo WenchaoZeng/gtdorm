@@ -2,7 +2,7 @@
 session_start();
 //在页首先要开启session,
 //error_reporting(2047);
-session_destroy();
+//session_destroy();
 
 require_once ("includes/helpers/sqlhelper.php");
 
@@ -10,7 +10,7 @@ require_once ("includes/helpers/sqlhelper.php");
  * 后台登录页面
  * Created by zwc at 2009年10月27日
 */
-
+$iden = $_SESSION["authnum_session"];
 
 /**
  * 尝试执行登录
@@ -19,7 +19,12 @@ require_once ("includes/helpers/sqlhelper.php");
  */
 function Login($username, $password, $checkcode)
 {
-	$checkNum = $_SESSION["authnum_session"];
+	session_start();
+	//在页首先要开启session,
+	//error_reporting(2047);
+	//session_destroy();
+	
+	$checkNum = $_SESSION["code"];
 	// 验证输入有效性及安全性
 	if ($username == "" || $password == "" || $checkcode == "")
 	{
@@ -34,7 +39,7 @@ function Login($username, $password, $checkcode)
 	{
 		return "用户名或密码不正确！";
 	}
-	else if($checkcode != $_SESSION['authnum_session'])
+	else if($checkcode != $_SESSION['code'])
 	{
 		return "验证码不正确！";
 	}
@@ -86,7 +91,7 @@ function update()
 
         <label for="checkcode">验证码：</label>
         <input type="text" id="checkcode" name="checkcode" />
-        <img id="check" src="check.php" alt="点击刷新" title="看不清？点击更换另一张验证码。" style="cursor:pointer;" onclick= "javascript:this.src='check.php?tm='+Math.random()" />
+        <img id="check" src="check.php" alt="点击刷新" title="看不清？点击更换另一张验证码。" style="cursor:pointer;" onclick= "this.src=this.src+'?'" />
 
         <input type="submit" id="submit" name="submit" value="进入" />
 	</form>
