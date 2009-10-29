@@ -44,7 +44,7 @@ for($i=0;$i<5;$i++)
 	imageline($im,rand(0,30),rand(0,21),rand(20,40),rand(0,21),$li);
 }
 //字符在图片的位置;
-imagestring($im, 6, 8, 3, $authnum_session, $white);
+imagestring($im, 6, 12, 1, $authnum_session, $white);
 
 for($i=0;$i<90;$i++)
 {//加入干扰象素
