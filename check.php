@@ -24,11 +24,11 @@ $_SESSION['code'] = $authnum_session;
 
 //生成验证码图片，
 srand((double)microtime()*1000000);
-$im = imagecreate(50,20);//图片宽与高;
+$im = imagecreate(60,20);//图片宽与高;
 
 //主要用到黑白灰三种色;
-$bgcolor = ImageColorAllocate($im,rand(1,255),rand(1,255),rand(1,255));
-$white = ImageColorAllocate($im, rand(1,255),rand(1,255),rand(1,255));
+$bgcolor = ImageColorAllocate($im,rand(0,255),rand(0,255),rand(0,255));
+$white = ImageColorAllocate($im, 255,255,255);
 
 //背景色
 //srand((double)microtime()*1000000);
@@ -37,14 +37,14 @@ $white = ImageColorAllocate($im, rand(1,255),rand(1,255),rand(1,255));
 //将四位整数验证码绘入图片
 //imagefill($im,68,30,$gray);
 //如不用干扰线，注释就行了;
-$li = ImageColorAllocate($im,rand(1,255),rand(1,255),rand(1,255));
+$li = ImageColorAllocate($im,rand(1,255),rand(100,255),rand(1,255));
 
 for($i=0;$i<5;$i++)
 {//加入3条干扰线;也可以不要;视情况而定，因为可能影响用户输入;
 	imageline($im,rand(0,30),rand(0,21),rand(20,40),rand(0,21),$li);
 }
 //字符在图片的位置;
-imagestring($im, 5, 8, 2, $authnum_session, $white);
+imagestring($im, 6, 8, 3, $authnum_session, $white);
 
 for($i=0;$i<90;$i++)
 {//加入干扰象素
