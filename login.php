@@ -49,18 +49,19 @@ function Login($username, $password, $checkcode)
 	}
 }
 
-$script = "";
-//
+
 if ($_POST["submit"])
 {
 	$result = Login($_POST["username"], $_POST["password"], $_POST["checkcode"]);
 	if ($result != "")
 	{
-		$script = "alert('$result')";
+		session_start();
+		$_SESSION["remind"] = $result;
+		header("Location:error.php");
 	}
 	else
 	{
-		$script = "document.location = 'welcome.php'";
+		header("Location:welcome.php");
 	}
 }
 ?>
@@ -72,11 +73,7 @@ if ($_POST["submit"])
 <link rel="stylesheet" type="text/css" href="styles/style.css" />
 <script language="javascript">
 <!--
-function update()
-	{
-		var img  = document.getElementById('check');
-		img.src="check.php";
-	}
+
 	-->
 </script>
 </head>
@@ -97,11 +94,6 @@ function update()
 
         <input type="submit" id="submit" name="submit" value="½øÈë" />
 	</form>
-    
-    <script type="text/javascript">
-	
-    	<?php echo $script;?>
-    </script>
 	
 </body>
 </html>
