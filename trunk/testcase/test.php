@@ -10,9 +10,11 @@
 var ap_name = navigator.appName;
 var ap_vinfo = navigator.appVersion;
 var ap_ver = parseFloat(ap_vinfo.substring(0,ap_vinfo.indexOf('(')));
+
 var time_start = new Date();
 var clock_start = time_start.getTime();
 var dl_ok=false;
+
 function init ()
 {
 if(ap_name=="Netscape" && ap_ver>=3.0)
@@ -38,7 +40,7 @@ window.setTimeout('show_secs()',1000);
 </SCRIPT>
 <form name="fm0" onSubmit="0">
 <FONT COLOR="#888888" size="-1">您在本网页的停留时间:</FONT><br>
-<INPUT type="text" name="time_spent" size=7 onFocus="this.blur()">
+<INPUT type="text" name="time_spent"">
 </form>
 
 </body></html>
