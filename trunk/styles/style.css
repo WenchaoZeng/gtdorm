@@ -7,7 +7,7 @@ html{background:#4496d3;font-family:"微软雅黑", "宋体";}
 /*login*/
 #login-body{width:100%;height:620px;background:url(image/login-bg.png) no-repeat 0 -50px fixed;}
 #login-body h1{display:none;}
-#login{position:absolute;top:320px;left:50%;color:#11a9e3;font-size:14px;font-weight:bold;}
+#login{position:absolute;top:320px;left:630px;width:300px;color:#11a9e3;font-size:14px;font-weight:bold;}
 #username,#password{width:150px;height:20px;border:1px solid #a1baff;padding-left:20px;}
 #username{background:url(image/userinput-icon.png) no-repeat;}
 #password{background:url(image/passwordinput-icon.png) no-repeat;margin-left:2px;}
