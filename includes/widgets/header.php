@@ -15,11 +15,12 @@ require_once ($path.'/../helpers/sqlhelper.php');
 	
 if( ($_SESSION['name'] != '' ) && ($_SESSION['password'] == $row['Password']) )
 	{
+			$showtime = date("Y-m-d");
 			echo "<span class='name'></span>";
 			echo $_SESSION['name'];
 			echo "</span>";
 			echo "<span class='date'>";
-			echo ", 您好! 今天是 2009年10月27日 星期二";
+			echo ", 您好! 今天是 $showtime 欢迎您登陆宿舍管理系统";
 			echo "</span>";
 	}
 	else
