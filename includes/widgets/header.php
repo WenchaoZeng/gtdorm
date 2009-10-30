@@ -59,5 +59,5 @@ if($_SESSION['name'] != "")
 
 <!-- 团队信息 -->
 <div id="gteam_info">
-	Powered by <a href="#">GTeam</a>
+	Powered by <a href="http://www.g-team.cn" target="_blank">GTeam</a>
 </div>
