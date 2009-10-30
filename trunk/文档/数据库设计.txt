@@ -32,7 +32,7 @@
   楼栋							Block						varchar(20)			  not null
   宿舍号							DormitoryID					int						  not null
   宿舍类型						 Type							int						  not null(四人间，三人间，两人间)
-  宿舍电话						Telephone						cahr(16)				  enable null
+  宿舍电话						Telephone						varchar(16)				  enable null
   
   
 住宿信息：
