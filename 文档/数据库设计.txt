@@ -5,7 +5,7 @@
   学院				College						varchar(40)				not null
   班级				Class							varchar(40)				not null					
   姓名				Name						varchar(20)				not null
-  性别				Sex							enum("男","女")			not null
+  性别				Sex							bit(1男0女)					not null
   民族				Race							varchar(40)				not null
   出身日期			BirthDate					date							not null
   家庭住址			Address					varchar(100)				not null
