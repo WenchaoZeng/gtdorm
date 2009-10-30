@@ -10,10 +10,10 @@ require_once ($path.'/../helpers/sqlhelper.php');
 	<?php 
 	$username = $_SESSION['name'];
 	$result = sqlhelper::query("select UserName,Password from Users where UserName = '$username'");
-	$row = mysql_fetch_row($result);
+	$row = mysql_fetch_array($result);
+	$password = $row["Password"];
 	
-	
-	if($_SESSION['name'] != '' && $_SESSION['password'] == $row['Password'])
+if( ($_SESSION['name'] != '' ) && ($_SESSION['password'] == $row['Password']) )
 	{
 			echo "<span class='name'></span>";
 			echo $_SESSION['name'];

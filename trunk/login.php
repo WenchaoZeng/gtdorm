@@ -1,7 +1,7 @@
 <?php
 session_start();
 require_once('includes/common.php');
-
+session_destroy();
 
 //在页首先要开启session,
 //error_reporting(2047);
@@ -22,7 +22,6 @@ $iden = $_SESSION["authnum_session"];
  */
 function Login($username, $password, $checkcode)
 {
-	session_start();
 	//在页首先要开启session,
 	//error_reporting(2047);
 	//session_destroy();
@@ -39,18 +38,19 @@ function Login($username, $password, $checkcode)
 	// 验证
 	$result = sqlhelper::query("select UserName,Password from Users where UserName = '$username'");
 	$row = mysql_fetch_array($result);
-	
-	if ($password != $row["Password"])
+
+	if($checkcode != $_SESSION['code'])
 	{
-		return "用户名或密码不正确！";
+		return 1;
+		
 	}
-	else if($checkcode != $_SESSION['code'])
+	else if($password != $row["Password"])
 	{
-		return "验证码不正确！";
+		return 2;
 	}
 	else
 	{
-		return "";
+		return 3;
 	}
 }
 
@@ -58,13 +58,18 @@ function Login($username, $password, $checkcode)
 if ($_POST["submit"])
 {
 	$result = Login($_POST["username"], $_POST["password"], $_POST["checkcode"]);
-	if ($result != "")
+	
+	if($result ==1)
+	{
+		alert("验证码不正确！");
+	}
+	else if ($result == 2)
 	{
 		session_start();
-		$_SESSION["remind"] = $result;
+		$_SESSION["remind"] = '用户名或密码错误，请重新输入';
 		redirec("error.php");
 	}
-	else
+	else if($result == 3)
 	{
 		session_start();
 		$_SESSION["name"]= $_POST["username"];
