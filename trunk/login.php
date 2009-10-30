@@ -66,7 +66,7 @@ if ($_POST["submit"])
 	}
 	else
 	{
-		alert("welcome.php");
+		redirec("welcome.php");
 	}
 }
 ?>
