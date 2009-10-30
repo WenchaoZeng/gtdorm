@@ -27,7 +27,7 @@ echo $_SESSION["remind"];
 echo '<br>';
 ?>
 
-如果您不做出选择，将在  <span id="time">
+ 您将在  <span id="time">
 </span>  &nbsp 秒后跳转到第一个链接地址。 
 <br>
 <a href="login.php">如果页面没有刷新，请点击这里返回</a> 
