@@ -1,10 +1,9 @@
 学生信息：
 字段信息					字段名称					字段类型					字段属性				
 
-  编号							ID							   bigint						   主键
+  学号							StudentID				  bigint			            主键
   学院						Institute						  varchar(40)				  not null
   班级						   Class						  varchar(40)				  not null					
-  学号						StudentID					     bigint				      not null
   姓名						   Name							varchar(20)			  not null
   性别							Sex							 enum("男","女")		  not null
   民族							Race							varchar(40)			  not null
@@ -14,7 +13,6 @@
   学制						AcademicType				  bigint					  not null
   类别							Type							  varchar(20)			  not null	
   家庭电话					 HomeTelephone			  char(16)				  not null
-  校区							Campus						  varchar(20)			  not null
   入学时间					  AdmissionTime				year					  not null
   毕业时间					  GraduationTime				year					  not null
   身份证号码				IdentificationID					bigint				  not null
