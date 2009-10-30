@@ -1,5 +1,8 @@
 <?php
 session_start();
+require_once('includes/common.php');
+
+
 //在页首先要开启session,
 //error_reporting(2047);
 //session_destroy();
@@ -28,7 +31,9 @@ function Login($username, $password, $checkcode)
 	// 验证输入有效性及安全性
 	if ($username == "" || $password == "" || $checkcode == "")
 	{
-		return "用户名, 密码和验证码都不能为空";
+		alert("用户名, 密码和验证码都不能为空");
+		redirec("login.php");
+		return 0;
 	}
 
 	// 验证
@@ -57,11 +62,11 @@ if ($_POST["submit"])
 	{
 		session_start();
 		$_SESSION["remind"] = $result;
-		header("Location:error.php");
+		redirec("error.php");
 	}
 	else
 	{
-		header("Location:welcome.php");
+		alert("welcome.php");
 	}
 }
 ?>
