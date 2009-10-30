@@ -1,26 +1,26 @@
-学生信息：
-字段信息					字段名称					字段类型					字段属性				
+学生信息 students：
+  字段信息			字段名称					字段类型					字段属性				
 
-  学号							StudentID				  bigint			            主键
-  学院						Institute						  varchar(40)				  not null
-  班级						   Class						  varchar(40)				  not null					
-  姓名						   Name							varchar(20)			  not null
-  性别							Sex							 enum("男","女")		  not null
-  民族							Race							varchar(40)			  not null
-  出身日期					 BirthDate						 date						  not null
-  家庭住址					  Address						 varchar(100)			  not null
-  政治面貌					PoliticalStatus					 varchar(20)			  not null
-  学制						AcademicType				  bigint					  not null
-  类别							Type							  varchar(20)			  not null	
-  家庭电话					 HomeTelephone			  char(16)				  not null
-  入学时间					  AdmissionTime				year					  not null
-  毕业时间					  GraduationTime				year					  not null
-  身份证号码				IdentificationID					bigint				  not null
-  父亲名							FatherName					vahrchar(20)		  not null
-  父亲单位						FatherUnit						vharchar（40）    not null
-  母亲姓名						MotherName					varchar(20)          not null
-  母亲单位						MotherUnit					varchar(40)		  not null
-  备注							Remark							varchar(100)		  enable null
+  学号				StudentID					bigint			            主键
+  学院				College						varchar(40)				not null
+  班级				Class							varchar(40)				not null					
+  姓名				Name						varchar(20)				not null
+  性别				Sex							enum("男","女")			not null
+  民族				Race							varchar(40)				not null
+  出身日期			BirthDate					date							not null
+  家庭住址			Address					varchar(100)				not null
+  政治面貌			Political						varchar(20)				not null
+  学制				Academic					int								not null
+  类别				Type							varchar(20)				not null	
+  家庭电话			HomeNumber			char(16)						not null
+  入学时间			AntranceYear				year							not null
+  毕业时间			GraduationYear			year							not null
+  身份证号码		IDCard						varchar(20)				not null
+  父亲名				FatherName				vahrchar(20)				not null
+  父亲单位			FatherUnit					vharchar（40）			not null
+  母亲姓名			MotherName				varchar(20)				not null
+  母亲单位			MotherUnit				varchar(40)				not null
+  备注				Remark						varchar(100)				enable null
 	
 
 宿舍信息:
