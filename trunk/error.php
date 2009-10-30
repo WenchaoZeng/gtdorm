@@ -6,7 +6,8 @@ session_start();
 <head>
 <title></title>
 <script>
-	var num = 3;
+//设置页面等待时间
+	var num =3;
     setInterval(run, 1000);
     function run()
     {
