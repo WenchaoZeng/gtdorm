@@ -12,7 +12,7 @@
 <ul id="admin_nav">
 	<li><a id="user_data" href="#">用户资料</a></li>
 	<li><a id="maneger" href="#">管理员设置</a></li>
-	<li><a id="exit" href="#">退出系统</a></li>
+	<li><a id="exit" href="../login.php">退出系统</a></li>
 </ul>
 
 <!-- 主导航条 -->
