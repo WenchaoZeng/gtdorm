@@ -98,14 +98,14 @@ if ($_POST["submit"])
     	<label for="username">用户名：</label>
 		<input type="text" id="username" name="username" value="<?= $_POST["username"]?>"/><br />
 
-        <label for="password">密&nbsp;&nbsp;&nbsp;码：</label>
+        <label for="password">密&nbsp;&nbsp;码：</label>
         <input type="password" id="password" name="password" /><br />
 
         <label for="checkcode">验证码：</label>
         <input type="text" id="checkcode" name="checkcode" />
         <img id="check" src="check.php" alt="点击刷新" title="看不清？点击更换另一张验证码。" style="cursor:pointer;" onclick= "this.src=this.src+'?'" /><br />
 
-        <input type="submit" id="submit" name="submit" value="进入" />
+        <input type="submit" id="login_btn" name="submit" value="进入" />
 	</form>
 	
 </body>
