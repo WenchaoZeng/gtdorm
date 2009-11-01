@@ -20,15 +20,7 @@
 }
 "Files"
 {
-    "styles\\css\\css样式表.txt"
-    {
-    "ProjRelPath" = "T"
-    }
-    "styles\\image\\login-bg.png"
-    {
-    "ProjRelPath" = "T"
-    }
-    "includes\\helpers"
+    "index.php"
     {
     "ProjRelPath" = "T"
     }
@@ -36,31 +28,23 @@
     {
     "ProjRelPath" = "T"
     }
-    "includes\\widgets\\office.php"
+    "styles"
     {
     "ProjRelPath" = "T"
     }
-    "styles\\image\\btn-bg.png"
+    "styles\\image\\bg.png"
     {
     "ProjRelPath" = "T"
     }
-    "office"
+    "office\\index.php"
     {
     "ProjRelPath" = "T"
     }
-    "styles\\image\\nav-item-bg.png"
+    "Hello\\test.php"
     {
     "ProjRelPath" = "T"
     }
-    "system\\系统维护的管理页面.txt"
-    {
-    "ProjRelPath" = "T"
-    }
-    "includes\\widgets\\header.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "office\\info_input.php"
+    "styles\\image\\submit-btn.png"
     {
     "ProjRelPath" = "T"
     }
@@ -68,15 +52,31 @@
     {
     "ProjRelPath" = "T"
     }
-    "error.php"
+    "includes\\widgets"
     {
     "ProjRelPath" = "T"
     }
-    "styles"
+    "includes\\widgets\\header.php"
     {
     "ProjRelPath" = "T"
     }
-    "styles\\css"
+    "query\\index.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "images"
+    {
+    "ProjRelPath" = "T"
+    }
+    "testcase\\index4.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "includes\\helpers"
+    {
+    "ProjRelPath" = "T"
+    }
+    "system\\系统维护的管理页面.txt"
     {
     "ProjRelPath" = "T"
     }
@@ -84,19 +84,15 @@
     {
     "ProjRelPath" = "T"
     }
-    "styles\\image"
+    "includes\\widgets\\resource.php"
     {
     "ProjRelPath" = "T"
     }
-    "styles\\image\\content-bg.png"
+    "check.php"
     {
     "ProjRelPath" = "T"
     }
-    "images\\html里直接调用的图片.txt"
-    {
-    "ProjRelPath" = "T"
-    }
-    "includes\\sqlhelper.php"
+    "includes\\config.php"
     {
     "ProjRelPath" = "T"
     }
@@ -108,11 +104,19 @@
     {
     "ProjRelPath" = "T"
     }
-    "styles\\reset.css"
+    "resource"
     {
     "ProjRelPath" = "T"
     }
-    "testcase\\index4.php"
+    "error.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Hello"
+    {
+    "ProjRelPath" = "T"
+    }
+    "office\\在线办公的管理页面.txt"
     {
     "ProjRelPath" = "T"
     }
@@ -120,43 +124,55 @@
     {
     "ProjRelPath" = "T"
     }
+    "styles\\image\\userinput-icon.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\image\\passwordinput-icon.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "includes\\widgets\\office.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "query"
+    {
+    "ProjRelPath" = "T"
+    }
+    "system\\index.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "includes\\widgets\\query.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\css\\css样式表.txt"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\image"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\image\\样式图片.txt"
+    {
+    "ProjRelPath" = "T"
+    }
     "resource\\index.php"
     {
     "ProjRelPath" = "T"
     }
-    "styles\\image\\title-bg.png"
+    "styles\\image\\btn-bg.png"
     {
     "ProjRelPath" = "T"
     }
-    "Hello\\Hellosss.htm"
+    "styles\\css"
     {
     "ProjRelPath" = "T"
     }
-    "styles\\image\\user-icon.png"
-    {
-    "ProjRelPath" = "T"
-    }
-    "styles\\image\\submit-btn.png"
-    {
-    "ProjRelPath" = "T"
-    }
-    "Hello\\test.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "index.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "check.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "includes\\widgets\\resource.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "images"
+    "includes"
     {
     "ProjRelPath" = "T"
     }
@@ -168,47 +184,7 @@
     {
     "ProjRelPath" = "T"
     }
-    "includes"
-    {
-    "ProjRelPath" = "T"
-    }
-    "styles\\image\\jump-btn.png"
-    {
-    "ProjRelPath" = "T"
-    }
-    "includes\\widgets\\system.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "office\\index.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "testcase\\test.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "Hello\\Hello.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "includes\\helpers\\sqlhelper.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "Hello"
-    {
-    "ProjRelPath" = "T"
-    }
-    "styles\\image\\left-bar-bg.png"
-    {
-    "ProjRelPath" = "T"
-    }
-    "styles\\image\\set-icon.png"
-    {
-    "ProjRelPath" = "T"
-    }
-    "system\\index.php"
+    "welcome.php"
     {
     "ProjRelPath" = "T"
     }
@@ -216,19 +192,7 @@
     {
     "ProjRelPath" = "T"
     }
-    "system"
-    {
-    "ProjRelPath" = "T"
-    }
-    "styles\\image\\passwordinput-icon.png"
-    {
-    "ProjRelPath" = "T"
-    }
-    "testcase\\index1.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "office\\在线办公的管理页面.txt"
+    "styles\\image\\leftbar-item-bg.png"
     {
     "ProjRelPath" = "T"
     }
@@ -236,7 +200,47 @@
     {
     "ProjRelPath" = "T"
     }
-    "welcome.php"
+    "system"
+    {
+    "ProjRelPath" = "T"
+    }
+    "testcase\\index1.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\image\\set-icon.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "includes\\widgets\\system.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "testcase\\test.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\image\\nav-item-down-bg.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "office\\studentinfo_input.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "includes\\helpers\\sqlhelper.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\reset.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "office"
+    {
+    "ProjRelPath" = "T"
+    }
+    "includes\\sqlhelper.php"
     {
     "ProjRelPath" = "T"
     }
@@ -244,19 +248,7 @@
     {
     "ProjRelPath" = "T"
     }
-    "query\\index.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "includes\\widgets"
-    {
-    "ProjRelPath" = "T"
-    }
-    "includes\\widgets\\query.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "login.php"
+    "images\\html里直接调用的图片.txt"
     {
     "ProjRelPath" = "T"
     }
@@ -264,31 +256,23 @@
     {
     "ProjRelPath" = "T"
     }
-    "query"
+    "styles\\image\\left-bar-bg.png"
     {
     "ProjRelPath" = "T"
     }
-    "styles\\image\\userinput-icon.png"
+    "styles\\image\\title-bg.png"
     {
     "ProjRelPath" = "T"
     }
-    "includes\\common.php"
+    "styles\\image\\login-bg.png"
     {
     "ProjRelPath" = "T"
     }
-    "includes\\config.php"
+    "styles\\image\\nav-item-bg.png"
     {
     "ProjRelPath" = "T"
     }
-    "styles\\image\\样式图片.txt"
-    {
-    "ProjRelPath" = "T"
-    }
-    "styles\\image\\bg.png"
-    {
-    "ProjRelPath" = "T"
-    }
-    "testcase"
+    "Hello\\Hello.php"
     {
     "ProjRelPath" = "T"
     }
@@ -296,15 +280,31 @@
     {
     "ProjRelPath" = "T"
     }
-    "styles\\image\\leftbar-item-bg.png"
+    "Hello\\Hellosss.htm"
     {
     "ProjRelPath" = "T"
     }
-    "resource"
+    "styles\\image\\user-icon.png"
     {
     "ProjRelPath" = "T"
     }
-    "styles\\image\\nav-item-down-bg.png"
+    "login.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\image\\content-bg.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\image\\jump-btn.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "includes\\common.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "testcase"
     {
     "ProjRelPath" = "T"
     }
