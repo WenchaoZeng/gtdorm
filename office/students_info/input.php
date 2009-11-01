@@ -7,16 +7,16 @@ session_start();
 <head>
 <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
 <title>住宿信息录入</title>
-<link rel="stylesheet" type="text/css" href="../styles/style.css" />
+<link rel="stylesheet" type="text/css" href="../../styles/style.css" />
 </head>
 <body>
 
 <div id="header_area">
-<?php require_once("../includes/widgets/header.php"); ?>
+<?php require_once("../../includes/widgets/header.php"); ?>
 </div>
 
 <div id="leftbar">
-<?php require_once("../includes/widgets/office.php")?>
+<?php require_once("../../includes/widgets/office.php")?>
 </div>
 
 

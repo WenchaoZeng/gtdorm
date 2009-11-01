@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once('includes/common.php');
+require_once('includes/helpers/javascript.php');
 session_destroy();
 
 //在页首先要开启session,
@@ -30,8 +30,8 @@ function Login($username, $password, $checkcode)
 	// 验证输入有效性及安全性
 	if ($username == "" || $password == "" || $checkcode == "")
 	{
-		alert("用户名, 密码和验证码都不能为空");
-		redirec("login.php");
+		javascript::alert("用户名, 密码和验证码都不能为空");
+		javascript::redirec("login.php");
 		return 0;
 	}
 
@@ -61,20 +61,20 @@ if ($_POST["submit"])
 	
 	if($result ==1)
 	{
-		alert("验证码不正确！");
+		javascript::alert("验证码不正确！");
 	}
 	else if ($result == 2)
 	{
 		session_start();
 		$_SESSION["remind"] = '用户名或密码错误，请重新输入';
-		redirec("error.php");
+		javascript::redirec("error.php");
 	}
 	else if($result == 3)
 	{
 		session_start();
 		$_SESSION["name"]= $_POST["username"];
 		$_SESSION["password"]	= $_POST["password"];
-		redirec("welcome.php");
+		javascript::redirec("welcome.php");
 	}
 }
 ?>
@@ -86,7 +86,7 @@ if ($_POST["submit"])
 <link rel="stylesheet" type="text/css" href="styles/style.css" />
 <script language="javascript">
 <!--
-
+	
 	-->
 </script>
 </head>
