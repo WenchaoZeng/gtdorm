@@ -24,6 +24,10 @@
     {
     "ProjRelPath" = "T"
     }
+    "office\\students_info"
+    {
+    "ProjRelPath" = "T"
+    }
     "styles\\image\\leftbar-item-down-bg.png"
     {
     "ProjRelPath" = "T"
@@ -44,6 +48,14 @@
     {
     "ProjRelPath" = "T"
     }
+    "office\\lodging_info\\住宿信息.txt"
+    {
+    "ProjRelPath" = "T"
+    }
+    "office\\students_info\\input.php"
+    {
+    "ProjRelPath" = "T"
+    }
     "styles\\image\\submit-btn.png"
     {
     "ProjRelPath" = "T"
@@ -53,6 +65,10 @@
     "ProjRelPath" = "T"
     }
     "includes\\widgets"
+    {
+    "ProjRelPath" = "T"
+    }
+    "office\\others"
     {
     "ProjRelPath" = "T"
     }
@@ -100,6 +116,10 @@
     {
     "ProjRelPath" = "T"
     }
+    "office\\others\\其他信息.txt"
+    {
+    "ProjRelPath" = "T"
+    }
     "query\\数据查询模块的管理页面.txt"
     {
     "ProjRelPath" = "T"
@@ -129,6 +149,10 @@
     "ProjRelPath" = "T"
     }
     "styles\\image\\passwordinput-icon.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "office\\dormitorys_manage"
     {
     "ProjRelPath" = "T"
     }
@@ -164,6 +188,10 @@
     {
     "ProjRelPath" = "T"
     }
+    "office\\application_info"
+    {
+    "ProjRelPath" = "T"
+    }
     "styles\\image\\btn-bg.png"
     {
     "ProjRelPath" = "T"
@@ -177,6 +205,10 @@
     "ProjRelPath" = "T"
     }
     "styles\\image\\header-bg.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "office\\application_info\\申报审批.txt"
     {
     "ProjRelPath" = "T"
     }
@@ -240,6 +272,10 @@
     {
     "ProjRelPath" = "T"
     }
+    "office\\dormitorys_manage\\宿舍管理.txt"
+    {
+    "ProjRelPath" = "T"
+    }
     "includes\\sqlhelper.php"
     {
     "ProjRelPath" = "T"
@@ -264,7 +300,15 @@
     {
     "ProjRelPath" = "T"
     }
+    "office\\lodging_info"
+    {
+    "ProjRelPath" = "T"
+    }
     "styles\\image\\login-bg.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "office\\students_info\\学生信息.txt"
     {
     "ProjRelPath" = "T"
     }
