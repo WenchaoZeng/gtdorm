@@ -120,6 +120,10 @@
     {
     "ProjRelPath" = "T"
     }
+    "office\\students_info\\info_input.php"
+    {
+    "ProjRelPath" = "T"
+    }
     "query\\数据查询模块的管理页面.txt"
     {
     "ProjRelPath" = "T"
