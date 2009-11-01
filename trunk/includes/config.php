@@ -1,7 +1,7 @@
 <?php
 
 // 数据库配置信息(本地数据库-ryan)
-$db_host = "Ryan";
+$db_host = "zpz";
 $db_name  = "gtdorm";
 $db_user = "root";
 $db_pass = "123456";
