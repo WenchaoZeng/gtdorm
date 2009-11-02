@@ -43,7 +43,7 @@ html{background:#4496d3;font-family:"微软雅黑", "宋体";}
 #sub_nav li a:hover{background:url(image/leftbar-item-down-bg.png) no-repeat;color:#fff;}
 .sub_nav_selected{background:url(image/leftbar-item-down-bg.png) no-repeat !important;color:#fff !important;}
 
-#approval,#dorm_manage{position:absolute; z-index:1;width:170px; height:267px;background:url(image/subnav-bg.png) no-repeat;padding-top:10px;}
+#approval,#dorm_manage{float:right;width:170px;margin-left:170px; height:267px;background:url(image/subnav-bg.png) no-repeat;padding-top:10px;}
 #approval li,#dorm_manage li{display:block;width:170px;height:35px;background:url(image/subnav-item.png) no-repeat 20px 0;margin-bottom:18px;text-align:center;line-height:30px;}
 #approval li a,#dorm_manage li a{color:#000;font-size:12px;text-decoration:none;}
 #approval li a:hover,#dorm_manage li a:hover{color:#006AAC;}
@@ -52,7 +52,7 @@ html{background:#4496d3;font-family:"微软雅黑", "宋体";}
 
 /*main content*/
 
-#content{position:absolute;z-index:-1;width:80%;min-width:1000px;height:700px;margin-left:250px;top:161px;background:url(image/bg.png) no-repeat;}
+#content{position:relative;width:80%;min-width:1000px;height:700px;margin-left:250px;margin-top:-700px;background:url(image/bg.png) no-repeat;}
 #content h1{display:block;width:1000px;height:30px;margin:8px auto; text-align:center;color:#eed;font-size:20px;font-weight:bolder;}
 #info_input{width:1000px;}
 #basic_info,#home_info,#incampus_info,#stay_info,#other_info{display:inline-block; width:360px;height:190px;margin-left:88px;border:1px solid #BFD0E5;padding:8px 0 0 10px;}
