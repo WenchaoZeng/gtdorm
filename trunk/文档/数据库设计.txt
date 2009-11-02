@@ -46,7 +46,7 @@
 住宿调整申请表:
  字段信息					字段名称					字段类型					字段属性
    编号							ID							    bigint				      主键
-   学院						Institute						varchar(40)				 not null
+   学院						College						varchar(40)				 not null
    班级						  Class						varchar(40)				 not null
    原住宿舍					OriginalDorm				varchar(40)				 not null
    拟住宿舍					ApplyDorm				varchar(40)				 not null
@@ -66,7 +66,7 @@
    审批状态					Status							bool						 not null
    
 
-宣传活动申请表：
+公寓宣传活动申请表：
  字段信息					字段名称					字段类型					字段属性
 	编号							ID								bigint						主键
 	申请部门				ApplyDepartment			varchar(40)			not null
@@ -118,7 +118,16 @@
 	用户密码					Password					varchar(20)				not null
 	
 				
-	
+夜不归宿
+ 字段信息					字段名称					字段类型					字段属性
+   编号							ID								int								主键
+   学院						College						varchar(40)				 not null
+   班级							Class							varchar(40)				not null			
+   姓名							Name						varchar(20)				not null
+   性别							Sex							bit(1男0女)					not null
+   年级							Grade						int								not null
+   楼栋号						BlockID						varchar(20)				not null
+   宿舍号						DormitoryID				int								not null
 								
    
    

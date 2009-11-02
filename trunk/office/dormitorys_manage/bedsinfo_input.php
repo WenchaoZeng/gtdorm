@@ -1,6 +1,5 @@
-<!--床位信息的录入-->
 <?php
-/* TODO: Add code here */
+//床位信息录入
 session_start();
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -23,7 +22,7 @@ session_start();
 
 
 <div id="content">
-
+床位信息的录入部分
 
 </div>
 
