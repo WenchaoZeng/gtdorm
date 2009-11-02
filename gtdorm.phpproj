@@ -56,6 +56,10 @@
     {
     "ProjRelPath" = "T"
     }
+    "office\\lodging_info\\input.php"
+    {
+    "ProjRelPath" = "T"
+    }
     "styles\\image\\nav-item-bg.png"
     {
     "ProjRelPath" = "T"
@@ -133,6 +137,10 @@
     "ProjRelPath" = "T"
     }
     "styles\\image\\title-bg.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "office\\dormitorys_manage\\bedsinfo_input.php"
     {
     "ProjRelPath" = "T"
     }
