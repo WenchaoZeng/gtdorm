@@ -24,10 +24,6 @@
     {
     "ProjRelPath" = "T"
     }
-    "office\\application_info\\dormitoryadjust.php"
-    {
-    "ProjRelPath" = "T"
-    }
     "office\\students_info"
     {
     "ProjRelPath" = "T"
@@ -236,15 +232,15 @@
     {
     "ProjRelPath" = "T"
     }
+    "office\\application_info\\dormadjust.php"
+    {
+    "ProjRelPath" = "T"
+    }
     "welcome.php"
     {
     "ProjRelPath" = "T"
     }
     "styles\\style.css"
-    {
-    "ProjRelPath" = "T"
-    }
-    "office\\application_info\\aparmentpropagate.php"
     {
     "ProjRelPath" = "T"
     }
@@ -269,6 +265,10 @@
     "ProjRelPath" = "T"
     }
     "includes\\widgets\\system.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "office\\application_info\\apartpropagate.php"
     {
     "ProjRelPath" = "T"
     }

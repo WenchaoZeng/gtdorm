@@ -57,9 +57,9 @@
    班级意见					ClassComment				text						 not null
    班级负责人签字		ClassSign						varchar(20)			 not null
    班级签字日期			ClassSignDate				datetime				 not null
-   学院意见					InstituteComment			text						 not null
-   学院负责人签字		InstituteSign			       varchar(20)			     not null
-   学院签字日期			InstituteSignDate			datetime				 not null
+   学院意见					CollegeComment			text						 not null
+   学院负责人签字		CollegeSign			       varchar(20)			     not null
+   学院签字日期			CollegeSignDate			datetime				 not null
    学校意见					SchoolComemnt				text						 not null
    学校负责人签字		SchoolSign					varcahr(20)			 not null
    学校签字时间			SchoolSignDate				datetime				 not null
