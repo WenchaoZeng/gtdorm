@@ -24,6 +24,10 @@
     {
     "ProjRelPath" = "T"
     }
+    "office\\application_info\\dormitoryadjust.php"
+    {
+    "ProjRelPath" = "T"
+    }
     "office\\students_info"
     {
     "ProjRelPath" = "T"
@@ -144,6 +148,10 @@
     {
     "ProjRelPath" = "T"
     }
+    "office\\dormitorys_manage\\nightsout.php"
+    {
+    "ProjRelPath" = "T"
+    }
     "office\\在线办公的管理页面.txt"
     {
     "ProjRelPath" = "T"
@@ -236,7 +244,7 @@
     {
     "ProjRelPath" = "T"
     }
-    "office\\dormitorys_manage\\bedsinfo_input.php"
+    "office\\application_info\\aparmentpropagate.php"
     {
     "ProjRelPath" = "T"
     }
@@ -273,6 +281,10 @@
     "ProjRelPath" = "T"
     }
     "office\\studentinfo_input.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "office\\dormitorys_manage\\bedsinfo.php"
     {
     "ProjRelPath" = "T"
     }
