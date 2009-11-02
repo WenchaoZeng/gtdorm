@@ -9,7 +9,7 @@ session_start();
 <link rel="stylesheet" type="text/css" href="styles/style.css" />
 <script>
 //设置页面等待时间
-	var num =13;
+	var num =3;
     setInterval(run, 1000);
     function run()
     {

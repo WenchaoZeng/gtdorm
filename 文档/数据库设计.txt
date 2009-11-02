@@ -72,7 +72,7 @@
 	申请部门				ApplyDepartment			varchar(40)			not null
 	联系方式				Connect							char(16)					not null
 	活动主题				Title								varchar(40)			not null
-	招牌数量				Board							int							not null
+	招牌数量				BoardNum					int							not null
 	摆放开始时间			BoardBeginTime			datetime				not null
 	摆放结束时间			BoardEndTime				datetime				not null
 	简要内容				BoardContent				text						not null
@@ -127,7 +127,7 @@
    性别							Sex							bit(1男0女)					not null
    年级							Grade						int								not null
    楼栋号						BlockID						varchar(20)				not null
-   宿舍号						DormitoryID				int								not null
+   宿舍号						DormitoryID				bigint								not null
 								
    
    
