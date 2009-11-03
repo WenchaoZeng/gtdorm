@@ -39,16 +39,13 @@ html{background:#4496d3;font-family:"微软雅黑", "宋体";}
 /*leftbar*/
 #leftbar{position:relative;width:20%;min-width:250px;height:700px;background:url(image/bg.png) no-repeat;}
 #sub_nav{position:absolute;display:block;width:205px;height:350px;margin-top:40px;margin-left:20px;}
-#sub_nav li a{display:block;width:201px;height:42px;margin:30px 0 0 0;background:url(image/leftbar-item-bg.png) no-repeat;font-size:14px;font-weight:bold;color:#222;text-decoration:none;text-align:center;line-height:38px;}
-#sub_nav li a:hover{background:url(image/leftbar-item-down-bg.png) no-repeat;color:#fff;}
-.sub_nav_selected{background:url(image/leftbar-item-down-bg.png) no-repeat !important;color:#fff !important;}
+.sub_nav_item{display:block;width:201px;height:42px;margin:20px 0 0 0;background:url(image/leftbar-item-bg.png) no-repeat;font-size:14px;font-weight:bold;color:#222;text-decoration:none;text-align:center;line-height:38px;}
+.sub_nav_item_alt{display:block;width:201px;height:42px;margin:20px 0 0 0;background:url(image/leftbar-item-bg.png) no-repeat;font-size:14px;font-weight:bold;color:#222;text-decoration:none;text-align:center;line-height:38px;}
+.sub_nav_item:hover{background:url(image/leftbar-item-down-bg.png) no-repeat;color:#fff;}
+.sub_nav_item_alt:hover{background:url(image/sndleftbar-item-down-bg.png) no-repeat;color:#fff;}
+.sub_nav_selected{display:block;width:201px;height:42px;margin:30px 0 0 0;font-size:14px;font-weight:bold;color:#222;text-decoration:none;text-align:center;line-height:38px;background:url(image/sndleftbar-item-down-bg.png) no-repeat !important;color:#fff !important;}
 
-#approval,#dorm_manage{float:right;width:170px;margin-left:170px; height:267px;background:url(image/subnav-bg.png) no-repeat;padding-top:10px;}
-#approval li,#dorm_manage li{display:block;width:170px;height:35px;background:url(image/subnav-item.png) no-repeat 20px 0;margin-bottom:18px;text-align:center;line-height:30px;}
-#approval li a,#dorm_manage li a{color:#000;font-size:12px;text-decoration:none;}
-#approval li a:hover,#dorm_manage li a:hover{color:#006AAC;}
-#approval{left:252px;top:205px;}
-#dorm_manage{left:252px;top:280px;}
+#approval,#dorm_manage{width:154px;height:143px;background:url(image/subnav-bg.png) no-repeat;margin:-9px 0 0 33px;}
 
 /*main content*/
 
