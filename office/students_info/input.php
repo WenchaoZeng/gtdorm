@@ -8,6 +8,7 @@ session_start();
 <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
 <title>住宿信息录入</title>
 <link rel="stylesheet" type="text/css" href="../../styles/style.css" />
+<script src="../../js/studentinfo_input.js"></script>
 </head>
 <body>
 
@@ -30,7 +31,8 @@ session_start();
 	<legend>基本信息</legend>
     
     <label for="Name">姓名</label>
-	<input type="text" name="Name" id="Name" maxlength="20" /><br />
+	<input type="text" name="Name" id="Name" maxlength="20" onblur="checkname('this')" /><br />
+	<span id ="checkname"></span>
     
     <label for="Sex">性别</label>
     <span id="Sex">
