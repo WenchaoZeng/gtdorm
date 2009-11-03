@@ -3,6 +3,7 @@
 $path = dirname(__FILE__);
 require_once ($path.'/../helpers/sqlhelper.php');
 ?>
+
 <h1>宿舍管理系统</h1>
 
 <!-- 欢迎信息 -->

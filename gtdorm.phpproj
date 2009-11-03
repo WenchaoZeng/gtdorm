@@ -76,11 +76,11 @@
     {
     "ProjRelPath" = "T"
     }
-    "styles\\image\\样式图片.txt"
+    "resource"
     {
     "ProjRelPath" = "T"
     }
-    "resource"
+    "styles\\image\\样式图片.txt"
     {
     "ProjRelPath" = "T"
     }
@@ -88,11 +88,11 @@
     {
     "ProjRelPath" = "T"
     }
-    "testcase\\test.php"
+    "Hello\\test.php"
     {
     "ProjRelPath" = "T"
     }
-    "Hello\\test.php"
+    "testcase\\test.php"
     {
     "ProjRelPath" = "T"
     }
@@ -168,6 +168,10 @@
     {
     "ProjRelPath" = "T"
     }
+    "js\\jquery-1.2.6.min.js"
+    {
+    "ProjRelPath" = "T"
+    }
     "includes\\helpers\\sqlhelper.php"
     {
     "ProjRelPath" = "T"
@@ -196,11 +200,11 @@
     {
     "ProjRelPath" = "T"
     }
-    "includes\\common.php"
+    "styles\\reset.css"
     {
     "ProjRelPath" = "T"
     }
-    "styles\\reset.css"
+    "includes\\common.php"
     {
     "ProjRelPath" = "T"
     }
@@ -313,6 +317,10 @@
     "ProjRelPath" = "T"
     }
     "testcase\\测试用的php文件.txt"
+    {
+    "ProjRelPath" = "T"
+    }
+    "js"
     {
     "ProjRelPath" = "T"
     }
