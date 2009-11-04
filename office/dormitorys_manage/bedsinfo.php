@@ -56,8 +56,7 @@ fieldset
 <label for ="telephone">宿舍电话</label>
 <input type ="text" name ="telephone" id=""telephone><br>
 
-
-<label for =""></label>
+<input type ="submit" value="提交">
 </fieldset>
 
 </form>
