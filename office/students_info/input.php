@@ -8,7 +8,11 @@ session_start();
 <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
 <title>住宿信息录入</title>
 <link rel="stylesheet" type="text/css" href="../../styles/style.css" />
+
 <script src="../../js/studentinfo_input.js"></script>
+<script type="text/javascript" src="../../js/jquery-1.2.6.min.js"></script>
+<script type="text/javascript" src="../../js/dropdown.js"></script>
+
 </head>
 <body>
 
