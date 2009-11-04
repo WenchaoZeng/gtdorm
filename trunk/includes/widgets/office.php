@@ -9,7 +9,7 @@
 	<li><a class="sub_nav_item" href="/office/lodging_info/input.php">住宿信息</a></li>
 	<li><span class="sub_nav_selected_alt1">申报审批</span></li>
 		<ul class="approval">
-			<li><a href="#">住宿调整申请</a></li>
+			<li><a href="../../office/application_info/dormadjust.php">住宿调整申请</a></li>
 			<li><a href="#">公寓区宣传活动申请</a></li>
 			<li><a href="#">文明宿舍申报</a></li>
 			<li><a href="#">空房使用申请</a></li>
