@@ -10,7 +10,7 @@ session_start();
 <link rel="stylesheet" type="text/css" href="../../styles/style.css" />
 </head>
 
-<body>
+<body onload="change()">
 
 <div id="header_area">
 <?php require_once("../../includes/widgets/header.php"); ?>

@@ -21,3 +21,8 @@ $(document).ready(function () {
 	$(this).animate({ fontSize: "12px", paddingLeft: "10px" }, 50 );
     });
 });
+
+function change()
+{
+	document.getElementById("online").className = "click";
+}
