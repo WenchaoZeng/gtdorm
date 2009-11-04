@@ -24,5 +24,5 @@ $(document).ready(function () {
 
 function change()
 {
-	document.getElementById("online").className = "click";
+	document.getElementById("online").className = "clicked";
 }
