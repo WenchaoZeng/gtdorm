@@ -36,11 +36,11 @@ $(document).ready(function () {
 
 function change()
 {
-	document.getElementById("online").className = "click";
+	document.getElementById("online").className = "clicked";
 }
 </script>
 </head>
-<body onload="change()">
+<body onfocus="change()">
 
 <div id="header_area">
 <?php require_once("../includes/widgets/header.php"); ?>
