@@ -68,3 +68,5 @@ html{background:#4496d3;font-family:"微软雅黑", "宋体";}
 /*error.php*/
 #errorbox{position:relative;color:#fff;width:300px;height:130px;background:#C6C6C6 url(image/error-bg.png) no-repeat 0 11px;padding-left:135px;padding-top:20px;margin:200px auto;border:1px solid #oof;}
 #errorbox a{color:#f0f;position:absolute;bottom:20px;}
+
+#main_nav li .click {background:url(image/nav-item-down-bg.png) no-repeat;color:#dff;}

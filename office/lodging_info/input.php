@@ -24,7 +24,7 @@ fieldset
 <script type="text/javascript" src="../../js/dropdown.js"></script>
 </head>
 
-<body>
+<body onload="change()">
 
 <div id="header_area">
 <?php require_once("../../includes/widgets/header.php"); ?>
