@@ -24,6 +24,10 @@
     {
     "ProjRelPath" = "T"
     }
+    "testcase\\test.html"
+    {
+    "ProjRelPath" = "T"
+    }
     "office\\students_info\\学生信息.txt"
     {
     "ProjRelPath" = "T"
@@ -245,10 +249,6 @@
     "ProjRelPath" = "T"
     }
     "office\\index.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "testcase\\test.php"
     {
     "ProjRelPath" = "T"
     }
