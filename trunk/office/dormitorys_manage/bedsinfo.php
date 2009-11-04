@@ -8,6 +8,8 @@ session_start();
 <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
 <title>ËŞÉáĞÅÏ¢Â¼Èë</title>
 <link rel="stylesheet" type="text/css" href="../../styles/style.css" />
+<script type="text/javascript" src="../../js/jquery-1.2.6.min.js"></script>
+<script type="text/javascript" src="../../js/dropdown.js"></script>
 <style type="text/css">
 fieldset
 {
