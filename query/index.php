@@ -33,9 +33,14 @@ $(document).ready(function () {
 	$(this).animate({ fontSize: "12px", paddingLeft: "10px" }, 50 );
     });
 });
+
+function change_query()
+{
+	document.getElementById("query").className = "clicked";
+}
 </script>
 </head>
-<body>
+<body onfocus="change_query()">
 
 <div id="header_area">
 <?php require_once("../includes/widgets/header.php"); ?>

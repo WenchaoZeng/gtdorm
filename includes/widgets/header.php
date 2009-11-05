@@ -50,8 +50,8 @@ if($_SESSION['name'] != "")
 	
 	echo "<li><a id='online' href='/office/index.php'>在线办公</a></li>";
 	echo "<li><a id='query' href='/query/index.php'>数据查询</a></li>";
-	echo "<li><a href='/resource/index.php'>宿舍资源</a></li>";
-	echo "<li><a href='/system/index.php'>系统维护</a></li>";
+	echo "<li><a id='resource' href='/resource/index.php'>宿舍资源</a></li>";
+	echo "<li><a id='system' href='/system/index.php'>系统维护</a></li>";
 		
 	}
  ?>
