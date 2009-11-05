@@ -56,7 +56,7 @@ table input
 	dispay:block;
 }
 
-#instruction
+#discription
 {
 	margin-left:130px;
 }

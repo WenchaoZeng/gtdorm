@@ -12,11 +12,13 @@ session_start();
 <style type="text/css">
 fieldset
 {
-	margin:50px;
-	padding:50px;
+	padding:40px;
+	height:100px;
 	width:400px;
 	color:#333; 
-	border:#06c dashed 1px;
+	border:#bfd0e5 1px solid;
+	margin-top:40px;
+	padding-top:40px;
 }
 </style>
 
