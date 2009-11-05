@@ -23,14 +23,14 @@ session_start();
 
 <div id="content">
 <h1>江苏大学学生住宿信息查询</h1>
-</div>
-<form>
 
+<form>
+<div id="search_area">
 <!--个人信息查询-->
 <fieldset id="student_query">
 
-<legend>个人窗口</legend>
-<label id="id">学生学号:</label>
+<legend>个人查询</legend>
+<label id="id">学号:</label>
 <input type="text">
 <input type ="submit" value="查询" name="person">
 
@@ -102,9 +102,10 @@ session_start();
 <input type="submit" value="查询" name="region">
 
 </fieldset>
+</div>
 
-<table id="show">
-<tr>
+<table id="show" class="data_table">
+<tr class="table_head">
 	<th>学号</th><th>姓名</th><th>学院</th><th>班级</th><th>楼栋</th><th>宿舍</th>
 </tr>
 
@@ -112,8 +113,7 @@ session_start();
 	<td>3060601019</td>
 	<td>李明</td>
 	<td>计算机学院</td>
-	<td>软件工程</td>
-	<td>0602</td>
+	<td>软件工程0602</td>
 	<td>三区五栋</td>
 	<td>109</td>
 </tr>
@@ -122,8 +122,7 @@ session_start();
 	<td>3060601018</td>
 	<td>陈芳</td>
 	<td>计算机学院</td>
-	<td>软件工程</td>
-	<td>0602</td>
+	<td>软件工程0602</td>
 	<td>三区五栋</td>
 	<td>109</td>
 </tr>
@@ -133,8 +132,7 @@ session_start();
 	<td>3060601017</td>
 	<td>方浩</td>
 	<td>计算机学院</td>
-	<td>软件工程</td>
-	<td>0602</td>
+	<td>软件工程0602</td>
 	<td>三区五栋</td>
 	<td>107</td>
 </tr>
@@ -144,8 +142,7 @@ session_start();
 	<td>3060601011</td>
 	<td>薛明</td>
 	<td>计算机学院</td>
-	<td>软件工程</td>
-	<td>0602</td>
+	<td>软件工程0602</td>
 	<td>三区五栋</td>
 	<td>107</td>
 </tr>
@@ -156,8 +153,7 @@ session_start();
 	<td>3060601016</td>
 	<td>成成</td>
 	<td>计算机学院</td>
-	<td>软件工程</td>
-	<td>0602</td>
+	<td>软件工程0602</td>
 	<td>三区五栋</td>
 	<td>106</td>
 </tr>
@@ -167,13 +163,13 @@ session_start();
 	<td>3060601015</td>
 	<td>云蕾</td>
 	<td>计算机学院</td>
-	<td>软件工程</td>
-	<td>0602</td>
+	<td>软件工程0602</td>
 	<td>三区五栋</td>
 	<td>105</td>
 </tr>
 </table>
 
 </form>
+</div>
 </body>
 </html>
