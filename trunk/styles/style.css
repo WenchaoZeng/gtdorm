@@ -57,7 +57,7 @@ html{background:#4496d3;font-family:"微软雅黑", "宋体";}
 #basic_info legend,#home_info legend,#incampus_info legend,#stay_info legend,#other_info legend{color:#eee;font-size:18px;font-weight:bold;}
 #basic_info label,#home_info label,#incampus_info label,#stay_info label,#other_info label{font-size:12px;}
 #Remark{ vertical-align:bottom;}
-#submit{position:absolute;left:420px;bottom:5px;border:0;display:block;width:158px;height:37px;background:url(image/btn-bg.png) no-repeat;cursor:pointer;color:#111;font-size:16px;font-weight:bold;}
+#submit{position:absolute;left:420px;bottom:295px;border:0;display:block;width:158px;height:37px;background:url(image/btn-bg.png) no-repeat;cursor:pointer;color:#111;font-size:16px;font-weight:bold;}
 
 
 
