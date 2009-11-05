@@ -24,7 +24,7 @@ session_start();
 
 
 <div id="content">
-	<h2 class="table_title">江苏大学学生公寓区开展宣传活动申请表</h2>
+	<h1>江苏大学学生公寓区开展宣传活动申请表</h1>
     <div class="table">
 	<table>
 		<tr>
@@ -98,11 +98,11 @@ session_start();
             <td><textarea cols="50" rows="5"></textarea></td>
         </tr>
     </table>
-    
+    	</div>
     <div id="btns">
     	<input type="submit" value="提交审批" />
     </div>
-	</div>
+
     
     <p class="discription">
    	  <strong>说明： </strong>1、本表一式两份，填写完毕后交学工处宿管科（学生公寓二区二栋107室）审批。 <br />

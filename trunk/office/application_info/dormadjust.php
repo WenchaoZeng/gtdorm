@@ -163,9 +163,11 @@ table input
 </tr>
 
 </table>
-<input id="submit" type ="button" value="提交">
+<div id="btns">
+<input type ="button" value="提交">
+</div>
 <br><br><br><br><br>
-<p id="instruction">
+<p id="discription">
 说明：学生应先写书面申请，经班级学院同意后，方可填写此申请表。<br>
 此表一式四份，申请者、学院、学工处、后勤集团各一份。
 </p>
