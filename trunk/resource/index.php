@@ -9,7 +9,15 @@ session_start();
 <title>Àﬁ…·≤È—Ø</title>
 <link rel="stylesheet" type="text/css" href="../styles/style.css" />
 </head>
-<body>
+<script type="text/javascript">
+<!--
+function change_resource()
+{
+	document.getElementById("resource").className = "clicked";
+}
+//-->
+</script>
+<body onfocus="change_resource()">
 
 <div id="header_area">
 <?php require_once("../includes/widgets/header.php"); ?>

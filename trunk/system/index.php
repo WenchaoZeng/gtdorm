@@ -8,8 +8,16 @@ session_start();
 <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
 <title>ÏµÍ³Î¬»¤</title>
 <link rel="stylesheet" type="text/css" href="../styles/style.css" />
+<script type="text/javascript">
+<!--
+function change_system()
+{
+	document.getElementById("system").className = "clicked";
+}
+//-->
+</script>
 </head>
-<body>
+<body onfocus="change_system()">
 
 <div id="header_area">
 <?php require_once("../includes/widgets/header.php"); ?>
