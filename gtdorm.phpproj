@@ -244,6 +244,10 @@
     {
     "ProjRelPath" = "T"
     }
+    "query\\students_info\\student_infor.php"
+    {
+    "ProjRelPath" = "T"
+    }
     "styles\\image\\jump-btn.png"
     {
     "ProjRelPath" = "T"
