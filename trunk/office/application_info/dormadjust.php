@@ -47,12 +47,13 @@ table input
 }
 #submit
 {
-	width:100px;
-	height:40px;
+	width:157px;
+	height:37px;
 	position:absolute;
 	top:655px;
-	left:700px;
+	left:670px;
 	padding:0;
+	dispay:block;
 }
 
 #instruction
