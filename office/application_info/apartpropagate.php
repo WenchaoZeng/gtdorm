@@ -12,7 +12,7 @@ session_start();
 <script type="text/javascript" src="../../js/dropdown.js"></script>
 </head>
 
-<body onfocus="change()">
+<body onfocus="change()" id="apartpropagate">
 
 <div id="header_area">
 <?php require_once("../../includes/widgets/header.php"); ?>
@@ -26,78 +26,94 @@ session_start();
 <div id="content">
 	<h1>江苏大学学生公寓区开展宣传活动申请表</h1>
     <div class="table">
+	<div class="division">
 	<table>
 		<tr>
-			<th>申请部门</th>
-			<td width="190"><input type="text" /></td>
-			<th>联系人(联系方式)</th>
-			<td width="190"><input type="text" /></td>
+			<th>申请部门：</th>
+			<td><input type="text" /></td>
+		</tr>
+		<tr>
+			<th>联系人(联系方式)：</th>
+			<td><input type="text" /></td>
 		</tr>
         <tr>
-        	<th>活动主题</th>
-            <td colspan="3"><input type="text" /></td>
+        	<th>活动主题：</th>
+            <td><input type="text" /></td>
         </tr>
     </table>
+	</div>
     <h3>摆放标牌</h3>
+	<div class="division">
     <table>
     	<tr>
-        	<th>标牌数量</th>
+        	<th>标牌数量：</th>
             <td><input type="text" /></td>
-            <th>摆放地点</th>
+		</tr>
+		<tr>
+            <th>摆放地点：</th>
             <td><input type="text" /></td>
         </tr>
         <tr>
-        	<th>摆放时间</th>
+        	<th>摆放时间：</th>
             <td colspan="3"><input type="text" />至<input type="text" /></td>
         </tr>
         <tr>
-        	<th>简要内容</th>
+        	<th>简要内容：</th>
             <td><textarea cols="30" rows="5"></textarea></td>
         </tr>
     </table>
+	</div>
     <h3>悬挂横幅</h3>
+	<div class="division">
     <table>
     	<tr>
-        	<th>横幅数量</th>
+        	<th>横幅数量：</th>
             <td><input type="text" /></td>
-            <th>批准号</th>
+		</tr>
+		<tr>
+            <th>批准号：</th>
             <td>学准<input type="text" />号</td>
         </tr>
         <tr>
-        	<th>横幅内容</th>
+        	<th>横幅内容：</th>
             <td colspan="3"><textarea cols="50" rows="5"></textarea></td>
         </tr>
         <tr>
-        	<th>悬挂时间</th>
+        	<th>悬挂时间：</th>
             <td colspan="3"><input type="text" />至<input type="text" /></td>
         </tr>
         <tr>
-        	<th>悬挂地点</th>
+        	<th>悬挂地点：</th>
             <td colspan="3"><input type="text" /></td>
         </tr>
     </table>
+	</div>
     <h3>摆摊设点</h3>
+	<div class="division">
     <table>
     	<tr>
-        	<th>摆摊事由</th>
+        	<th>摆摊事由：</th>
             <td><textarea cols="50" rows="5"></textarea></td>
         </tr>
         <tr>
-        	<th>摆摊时间</th>
+        	<th>摆摊时间：</th>
             <td><input type="text" />至<input type="text" /></td>
         </tr>
         <tr>
-        	<th>摆摊地点</th>
+        	<th>摆摊地点：</th>
             <td><input type="text" /></td>
         </tr>
     </table>
+	</div>
     <h3>散发传单</h3>
+	<div class="division">
   <table>
     	<tr>
-        	<th>传单内容（份数）</th>
+        	<th>传单内容（份数）：</th>
             <td><textarea cols="50" rows="5"></textarea></td>
         </tr>
     </table>
+	</div>
     	</div>
     <div id="btns">
     	<input type="submit" value="提交审批" />
