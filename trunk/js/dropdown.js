@@ -26,3 +26,8 @@ function change()
 {
 	document.getElementById("online").className = "clicked";
 }
+
+function change_query()
+{
+	document.getElementById("query").className = "clicked";
+}
