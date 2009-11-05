@@ -160,6 +160,10 @@
     {
     "ProjRelPath" = "T"
     }
+    "query\\lodgings_info\\lodging_info.php"
+    {
+    "ProjRelPath" = "T"
+    }
     "Hello\\Hellosss.htm"
     {
     "ProjRelPath" = "T"
