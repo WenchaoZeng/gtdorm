@@ -17,6 +17,7 @@ table
 	border:solid black; /* 设置边框属性；样式(solid=实线)、颜色(#999=灰) */
 	border-width:1px 1px 1px 1px; /* 设置边框状粗细：上 右 下 左 = 对应：1px 0 0 1px */
 	text-align:center;
+	margin-left:130px;
 }
 
 table td,th
@@ -49,11 +50,15 @@ table input
 	width:100px;
 	height:40px;
 	position:absolute;
-	top:650px;
-	left:500px;
+	top:655px;
+	left:700px;
 	padding:0;
 }
 
+#instruction
+{
+	margin-left:130px;
+}
 
 </style>
 
@@ -71,6 +76,7 @@ table input
 
 
 <div id="content">
+<h1>江苏大学学生宿舍变动申请表</h1>
 <table id="dormadjust">
 <tr>
 	<th>姓    名</th><td><input type="text" class="textbox"></td>
@@ -103,7 +109,7 @@ table input
 <tr>
 	<th>变动原因</th>
 	<td colspan="5">
-	<textarea cols="80" rows="7"></textarea><br>
+	<textarea cols="80" rows="6"></textarea><br>
 	<label>签字:</label><input type="text"><label>日期:</label>
 		<input type="text" style="width:20px;">
 		<label>年</label>
@@ -117,7 +123,7 @@ table input
 <tr>
 	<th>班级意见</th>
 	<td colspan="5">
-	<textarea cols="80" rows="7"></textarea><br>
+	<textarea cols="80" rows="6"></textarea><br>
 	<label>签字:</label><input type="text"><label>日期:</label>
 		<input type="text" style="width:20px;">
 		<label>年</label>
@@ -159,7 +165,7 @@ table input
 </table>
 <input id="submit" type ="button" value="提交">
 <br><br><br><br><br>
-<p>
+<p id="instruction">
 说明：学生应先写书面申请，经班级学院同意后，方可填写此申请表。<br>
 此表一式四份，申请者、学院、学工处、后勤集团各一份。
 </p>
