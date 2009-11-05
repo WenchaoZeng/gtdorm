@@ -86,9 +86,16 @@ html{background:#4496d3;font-family:"微软雅黑", "宋体";}
 .discription{margin-left:10px;}
 
 
+/*lodging_info.php*/
+#search_area{position:relative;width:900px;height:200px;border:1px solid #ccc;margin-left:10px;}
+#student_query{width:880px;height:50px;border-bottom:1px solid #ccc;padding:8px 10px;}
+#class_query{width:880px;height:50px;border-bottom:1px solid #ccc;padding:8px 10px;}
+#dormitory_query{width:880px;height:50px;border-bottom:1px solid #ccc;padding:8px 10px;}
 
-
-
+.data_table{width:900px;border:1px solid #ccc;margin-left:10px;margin-top:10px;}
+.data_table tr{border-bottom:1px solid #ccc;background:#F1F5FA;}
+.data_table td{height:25px;border:1px solid #ccc;padding-left:8px;}
+.table_head th{width:120px;height:25px;background:url(image/table_head_bg.png) repeat-x;padding-left:8px;font-weight:bold;border-right:1px solid #DBE2E7;border-left:1px solid #fff;}
 
 
 

@@ -20,119 +20,7 @@
 }
 "Files"
 {
-    "styles\\css\\css样式表.txt"
-    {
-    "ProjRelPath" = "T"
-    }
-    "testcase\\test.html"
-    {
-    "ProjRelPath" = "T"
-    }
-    "office\\students_info\\学生信息.txt"
-    {
-    "ProjRelPath" = "T"
-    }
-    "styles\\image\\login-bg.png"
-    {
-    "ProjRelPath" = "T"
-    }
-    "includes\\helpers"
-    {
-    "ProjRelPath" = "T"
-    }
-    "styles\\image\\leftbar-item-down-bg.png"
-    {
-    "ProjRelPath" = "T"
-    }
-    "includes\\widgets\\office.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "styles\\image\\btn-bg.png"
-    {
-    "ProjRelPath" = "T"
-    }
-    "office"
-    {
-    "ProjRelPath" = "T"
-    }
-    "office\\dormitorys_manage\\宿舍管理.txt"
-    {
-    "ProjRelPath" = "T"
-    }
-    "office\\lodging_info\\input.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "styles\\image\\nav-item-bg.png"
-    {
-    "ProjRelPath" = "T"
-    }
-    "system\\系统维护的管理页面.txt"
-    {
-    "ProjRelPath" = "T"
-    }
-    "includes\\widgets\\header.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "includes\\widgets\\页面挂件.txt"
-    {
-    "ProjRelPath" = "T"
-    }
-    "error.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "office\\application_info\\apartpropagate.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "styles"
-    {
-    "ProjRelPath" = "T"
-    }
-    "styles\\css"
-    {
-    "ProjRelPath" = "T"
-    }
-    "testcase\\include.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "office\\application_info\\申报审批.txt"
-    {
-    "ProjRelPath" = "T"
-    }
-    "文档"
-    {
-    "ProjRelPath" = "T"
-    }
-    "styles\\image"
-    {
-    "ProjRelPath" = "T"
-    }
-    "styles\\image\\content-bg.png"
-    {
-    "ProjRelPath" = "T"
-    }
-    "images\\html里直接调用的图片.txt"
-    {
-    "ProjRelPath" = "T"
-    }
-    "includes\\sqlhelper.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "styles\\样式文件.txt"
-    {
-    "ProjRelPath" = "T"
-    }
-    "query\\数据查询模块的管理页面.txt"
-    {
-    "ProjRelPath" = "T"
-    }
-    "styles\\reset.css"
+    "styles\\image\\exit-icon.png"
     {
     "ProjRelPath" = "T"
     }
@@ -140,83 +28,7 @@
     {
     "ProjRelPath" = "T"
     }
-    "resource\\宿舍资源的管理页面.txt"
-    {
-    "ProjRelPath" = "T"
-    }
-    "resource\\index.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "styles\\image\\title-bg.png"
-    {
-    "ProjRelPath" = "T"
-    }
-    "styles\\image\\subnav-bg.png"
-    {
-    "ProjRelPath" = "T"
-    }
-    "office\\dormitorys_manage\\nightsout.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "query\\lodgings_info\\lodging_info.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "Hello\\Hellosss.htm"
-    {
-    "ProjRelPath" = "T"
-    }
-    "styles\\image\\user-icon.png"
-    {
-    "ProjRelPath" = "T"
-    }
-    "styles\\image\\submit-btn.png"
-    {
-    "ProjRelPath" = "T"
-    }
-    "Hello\\test.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "office\\lodging_info\\住宿信息.txt"
-    {
-    "ProjRelPath" = "T"
-    }
-    "office\\others\\其他信息.txt"
-    {
-    "ProjRelPath" = "T"
-    }
-    "includes\\widgets\\check.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "office\\dormitorys_manage"
-    {
-    "ProjRelPath" = "T"
-    }
-    "js\\studentinfo_input.js"
-    {
-    "ProjRelPath" = "T"
-    }
-    "index.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "check.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "js\\jquery-1.2.6.min.js"
-    {
-    "ProjRelPath" = "T"
-    }
-    "js\\dropdown.js"
-    {
-    "ProjRelPath" = "T"
-    }
-    "includes\\widgets\\resource.php"
+    "styles\\image\\nav-item-down-bg.png"
     {
     "ProjRelPath" = "T"
     }
@@ -224,103 +36,19 @@
     {
     "ProjRelPath" = "T"
     }
-    "office\\studentinfo_input.php"
+    "query\\数据查询模块的管理页面.txt"
     {
     "ProjRelPath" = "T"
     }
-    "testcase\\index.php"
+    "office\\application_info"
     {
     "ProjRelPath" = "T"
     }
-    "styles\\image\\header-bg.png"
+    "includes\\widgets\\check.php"
     {
     "ProjRelPath" = "T"
     }
-    "includes\\helpers\\javascript.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "includes\\包含的文件部分（插件）.txt"
-    {
-    "ProjRelPath" = "T"
-    }
-    "includes"
-    {
-    "ProjRelPath" = "T"
-    }
-    "query\\students_info\\student_infor.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "styles\\image\\jump-btn.png"
-    {
-    "ProjRelPath" = "T"
-    }
-    "office\\students_info"
-    {
-    "ProjRelPath" = "T"
-    }
-    "includes\\widgets\\system.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "office\\index.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "Hello\\Hello.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "query\\lodgings_info"
-    {
-    "ProjRelPath" = "T"
-    }
-    "includes\\helpers\\sqlhelper.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "Hello"
-    {
-    "ProjRelPath" = "T"
-    }
-    "styles\\image\\left-bar-bg.png"
-    {
-    "ProjRelPath" = "T"
-    }
-    "office\\students_info\\input.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "office\\application_info\\dormadjust.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "office\\others"
-    {
-    "ProjRelPath" = "T"
-    }
-    "styles\\image\\set-icon.png"
-    {
-    "ProjRelPath" = "T"
-    }
-    "system\\index.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "styles\\style.css"
-    {
-    "ProjRelPath" = "T"
-    }
-    "office\\dormitorys_manage\\bedsinfo.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "system"
-    {
-    "ProjRelPath" = "T"
-    }
-    "styles\\image\\passwordinput-icon.png"
+    "Hello\\Hellosss.htm"
     {
     "ProjRelPath" = "T"
     }
@@ -328,7 +56,111 @@
     {
     "ProjRelPath" = "T"
     }
-    "文档\\数据库设计.txt"
+    "styles\\image\\title-bg.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "testcase\\test.html"
+    {
+    "ProjRelPath" = "T"
+    }
+    "testcase"
+    {
+    "ProjRelPath" = "T"
+    }
+    "office\\application_info\\申报审批.txt"
+    {
+    "ProjRelPath" = "T"
+    }
+    "office\\others"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\image\\header-bg.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\image\\样式图片.txt"
+    {
+    "ProjRelPath" = "T"
+    }
+    "resource"
+    {
+    "ProjRelPath" = "T"
+    }
+    "includes\\helpers"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Hello\\test.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "office\\studentinfo_input.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "文档"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\image\\nav-item-bg.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "query\\students_info\\student_infor.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "query\\lodgings_info"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\image\\btn-bg.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "resource\\宿舍资源的管理页面.txt"
+    {
+    "ProjRelPath" = "T"
+    }
+    "system"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Hello\\Hello.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\image\\login-bg.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "includes"
+    {
+    "ProjRelPath" = "T"
+    }
+    "query\\lodgings_info\\lodging_info.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Hello"
+    {
+    "ProjRelPath" = "T"
+    }
+    "includes\\widgets\\resource.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "office\\others\\其他信息.txt"
+    {
+    "ProjRelPath" = "T"
+    }
+    "office\\dormitorys_manage\\bedsinfo.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\image"
     {
     "ProjRelPath" = "T"
     }
@@ -340,7 +172,19 @@
     {
     "ProjRelPath" = "T"
     }
-    "styles\\image\\index-content-bg.png"
+    "includes\\helpers\\javascript.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "js\\jquery-1.2.6.min.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "includes\\helpers\\sqlhelper.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "office\\students_info\\input.php"
     {
     "ProjRelPath" = "T"
     }
@@ -348,31 +192,19 @@
     {
     "ProjRelPath" = "T"
     }
+    "includes\\widgets\\system.php"
+    {
+    "ProjRelPath" = "T"
+    }
     "includes\\widgets"
     {
     "ProjRelPath" = "T"
     }
-    "includes\\widgets\\query.php"
+    "styles\\样式文件.txt"
     {
     "ProjRelPath" = "T"
     }
-    "login.php"
-    {
-    "ProjRelPath" = "T"
-    }
-    "styles\\image\\exit-icon.png"
-    {
-    "ProjRelPath" = "T"
-    }
-    "query"
-    {
-    "ProjRelPath" = "T"
-    }
-    "js"
-    {
-    "ProjRelPath" = "T"
-    }
-    "styles\\image\\userinput-icon.png"
+    "images\\html里直接调用的图片.txt"
     {
     "ProjRelPath" = "T"
     }
@@ -380,15 +212,19 @@
     {
     "ProjRelPath" = "T"
     }
+    "styles\\reset.css"
+    {
+    "ProjRelPath" = "T"
+    }
     "includes\\config.php"
     {
     "ProjRelPath" = "T"
     }
-    "styles\\image\\样式图片.txt"
+    "includes\\widgets\\header.php"
     {
     "ProjRelPath" = "T"
     }
-    "office\\application_info"
+    "styles\\image\\set-icon.png"
     {
     "ProjRelPath" = "T"
     }
@@ -396,15 +232,23 @@
     {
     "ProjRelPath" = "T"
     }
-    "testcase"
+    "resource\\index.php"
     {
     "ProjRelPath" = "T"
     }
-    "testcase\\测试用的php文件.txt"
+    "styles\\css"
     {
     "ProjRelPath" = "T"
     }
-    "styles\\image\\leftbar-item-bg.png"
+    "query"
+    {
+    "ProjRelPath" = "T"
+    }
+    "office\\lodging_info\\住宿信息.txt"
+    {
+    "ProjRelPath" = "T"
+    }
+    "office\\dormitorys_manage\\nightsout.php"
     {
     "ProjRelPath" = "T"
     }
@@ -412,11 +256,171 @@
     {
     "ProjRelPath" = "T"
     }
-    "resource"
+    "includes\\包含的文件部分（插件）.txt"
     {
     "ProjRelPath" = "T"
     }
-    "styles\\image\\nav-item-down-bg.png"
+    "testcase\\include.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "login.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\image\\passwordinput-icon.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\image\\user-icon.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "office"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\image\\content-bg.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "office\\dormitorys_manage\\宿舍管理.txt"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\image\\table_head_bg.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "includes\\sqlhelper.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "js\\studentinfo_input.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\image\\userinput-icon.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\image\\leftbar-item-down-bg.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "testcase\\index.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles"
+    {
+    "ProjRelPath" = "T"
+    }
+    "js\\dropdown.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\css\\css样式表.txt"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\image\\left-bar-bg.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "index.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "check.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\image\\submit-btn.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "office\\index.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "office\\application_info\\dormadjust.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "testcase\\测试用的php文件.txt"
+    {
+    "ProjRelPath" = "T"
+    }
+    "js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\image\\jump-btn.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\image\\index-content-bg.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "includes\\widgets\\office.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "system\\index.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "office\\students_info\\学生信息.txt"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\image\\leftbar-item-bg.png"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\style.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "error.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "文档\\数据库设计.txt"
+    {
+    "ProjRelPath" = "T"
+    }
+    "includes\\widgets\\页面挂件.txt"
+    {
+    "ProjRelPath" = "T"
+    }
+    "system\\系统维护的管理页面.txt"
+    {
+    "ProjRelPath" = "T"
+    }
+    "office\\lodging_info\\input.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "office\\students_info"
+    {
+    "ProjRelPath" = "T"
+    }
+    "office\\dormitorys_manage"
+    {
+    "ProjRelPath" = "T"
+    }
+    "office\\application_info\\apartpropagate.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "includes\\widgets\\query.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "styles\\image\\subnav-bg.png"
     {
     "ProjRelPath" = "T"
     }
