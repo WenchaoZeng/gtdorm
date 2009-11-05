@@ -21,7 +21,7 @@
 			<li><a href="#">宿舍卫生得分统计</a></li>
 			<li><a href="#">宿舍违纪统计</a></li>
 			<li><a href="#">夜不归宿统计</a></li>
-			<li><a href="">典型宿舍一览</a></li>
+			<li><a href="#">典型宿舍一览</a></li>
 		</ul>
 	<li><a class="sub_nav_item" href="#">其他信息</a></li>
 </ul>
