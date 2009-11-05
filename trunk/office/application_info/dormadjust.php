@@ -32,6 +32,19 @@ table input
 	text-align:center;
 }
 
+#submit
+{
+	height:60px;
+	width:30px;
+	}
+
+.textbox
+{
+	width:110px;
+	float:left;
+	margin-left:5px;
+}
+
 </style>
 
 </head>
@@ -50,9 +63,9 @@ table input
 <div id="content">
 <table id="dormadjust">
 <tr>
-	<th>姓    名</th><td><input type="text"></td>
-	<th>学    院</th><td><input type="text"></td>
-	<th>班    级</th><td><input type="text"></td>
+	<th>姓    名</th><td><input type="text" class="textbox"></td>
+	<th>学    院</th><td><input type="text" class="textbox"></td>
+	<th>班    级</th><td><input type="text" class="textbox"></td>
 </tr>
 <tr>
 	<th>原住宿舍</th>
@@ -74,13 +87,13 @@ table input
 		<input type="text" style="width:20px;">
 		<label>室</label>
 	</td>
-	<th>联系方法</th><td><input type ="text"></td>
+	<th>联系方法</th><td><input type ="text" class="textbox"></td>
 </tr>
 
 <tr>
 	<th>变动原因</th>
 	<td colspan="5">
-	<textarea cols="60" rows="10"></textarea><br>
+	<textarea cols="80" rows="8"></textarea><br>
 	<label>签字:</label><input type="text"><label>日期:</label>
 		<input type="text" style="width:20px;">
 		<label>年</label>
@@ -94,7 +107,7 @@ table input
 <tr>
 	<th>班级意见</th>
 	<td colspan="5">
-	<textarea cols="60" rows="10"></textarea><br>
+	<textarea cols="80" rows="8"></textarea><br>
 	<label>签字:</label><input type="text"><label>日期:</label>
 		<input type="text" style="width:20px;">
 		<label>年</label>
@@ -108,7 +121,7 @@ table input
 <tr>
 	<th>学院意见</th>
 	<td colspan="5">
-	<textarea cols="60" rows="10"></textarea><br>
+	<textarea cols="80" rows="8"></textarea><br>
 	<label>签字:</label><input type="text"><label>日期:</label>
 	<input type="text" style="width:20px;">
 		<label>年</label>
@@ -122,7 +135,7 @@ table input
 <tr>
 	<th>学校意见</th>
 	<td colspan="5">
-	<textarea cols="60" rows="10"></textarea><br>
+	<textarea cols="80" rows="8"></textarea><br>
 	<label>签字:</label><input type="text"><label>日期:</label>
 	<input type="text" style="width:20px;">
 		<label>年</label>
@@ -134,6 +147,8 @@ table input
 </tr>
 
 </table>
+
+<br><br>
 <p>
 说明：学生应先写书面申请，经班级学院同意后，方可填写此申请表。<br>
 此表一式四份，申请者、学院、学工处、后勤集团各一份。
