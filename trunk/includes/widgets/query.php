@@ -5,7 +5,7 @@
 
 
 <ul id="sub_nav">
-	<li><a class="sub_nav_item" href="#">住宿信息</a></li>
+	<li><a class="sub_nav_item" href="../../query/lodgings_info/lodging_info.php">住宿信息</a></li>
 	<li><span class="sub_nav_selected_alt1">申报审批</span></li>
 		<ul class="approval">
 			<li><a href="#">住宿调整申请</a></li>
