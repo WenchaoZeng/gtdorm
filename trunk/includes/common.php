@@ -1,6 +1,6 @@
 <?php
 
-$virtualpath = "http://zwc.heliohost.org/gtdorm";
+$virtualpath = "";
 
 $root = dirname(dirname(__FILE__));
 

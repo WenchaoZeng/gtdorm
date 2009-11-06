@@ -30,7 +30,7 @@ html{background:#4496d3;font-family:"微软雅黑", "宋体";}
 #main_nav li{display:inline-block;}
 #main_nav li{*display:inline;}
 #main_nav li a{display:block;width:111px;height:38px;background:url(image/nav-item-bg.png) no-repeat;color:#222;font-size:14px;font-weight:bold;text-decoration:none;text-align:center;line-height:30px;margin:5px 20px;}
-#main_nav li a:hover{background:url(image/nav-item-down-bg.png) no-repeat;color:#dff;}
+
 .nav-selected{background:url(image/nav-item-down-bg.png) no-repeat !important;color:#dff !important;}
 #gteam_info{position:absolute;bottom:65px;right:15px;color:#fff;font-size:12px;}
 #gteam_info a{font-weight:bold;color:#FFFFFF;text-decoration:none;}
