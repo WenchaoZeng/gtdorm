@@ -1,7 +1,7 @@
 <?php
 // 通用的页面头部
 $path = dirname(__FILE__);
-require_once ($path.'/../helpers/sqlhelper.php');
+require_once ($path.'/../common.php');
 ?>
 
 <h1>宿舍管理系统</h1>
@@ -35,7 +35,7 @@ if( ($_SESSION['name'] != '' ) && ($_SESSION['password'] == $row['Password']) )
 <ul id="admin_nav">
 	<li><a id="user_data" href="#">用户资料</a></li>
 	<li><a id="maneger" href="#">管理员设置</a></li>
-	<li><a id="exit" href="../../login.php">退出系统</a></li>
+	<li><a id="exit" href="<?php echo $virtualpath ?>/login.php">退出系统</a></li>
 </ul>
 
 <!-- 主导航条 -->
@@ -48,10 +48,10 @@ $row = mysql_fetch_row($result);
 if($_SESSION['name'] != "")
 	{
 	
-	echo "<li><a id='online' class='online' href='/office/index.php'>在线办公</a></li>";
-	echo "<li><a id='query' href='/query/index.php'>数据查询</a></li>";
-	echo "<li><a id='resource' href='/resource/index.php'>宿舍资源</a></li>";
-	echo "<li><a id='system' href='/system/index.php'>系统维护</a></li>";
+	echo "<li><a id='online' class='online' href='$virtualpath/office/index.php'>在线办公</a></li>";
+	echo "<li><a id='query' href='$virtualpath/query/index.php'>数据查询</a></li>";
+	echo "<li><a id='resource' href='$virtualpath/resource/index.php'>宿舍资源</a></li>";
+	echo "<li><a id='system' href='$virtualpath/system/index.php'>系统维护</a></li>";
 		
 	}
  ?>
