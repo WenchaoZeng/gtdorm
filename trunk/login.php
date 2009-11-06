@@ -34,7 +34,7 @@ function Login($username, $password, $checkcode)
 	}
 
 	// —È÷§
-	$result = sqlhelper::query("select UserName,Password from Users where UserName = '$username'");
+	$result = sqlhelper::query("select UserName,Password from users where UserName = '$username'");
 	$row = mysql_fetch_array($result);
 
 	if($checkcode != $_SESSION['code'])
