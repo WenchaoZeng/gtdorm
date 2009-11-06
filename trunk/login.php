@@ -1,13 +1,11 @@
 <?php
 session_start();
-require_once('includes/helpers/javascript.php');
+require_once('includes/common.php');
 session_destroy();
 
 //在页首先要开启session,
 //error_reporting(2047);
 //session_destroy();
-
-require_once ("includes/helpers/sqlhelper.php");
 
 /**
  * 后台登录页面
