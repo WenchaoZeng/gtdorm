@@ -29,7 +29,7 @@ session_start();
 
 <h1>住宿信息录入</h1>
 
-<form id="info_input" name="info_input" method="post" action="info_input.php">
+<form id="info_input" name="info_input" method="post" action="input.php">
 
 <fieldset id="basic_info">
 	<legend>基本信息</legend>
