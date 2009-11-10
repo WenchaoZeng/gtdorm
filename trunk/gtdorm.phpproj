@@ -372,6 +372,10 @@
     {
     "ProjRelPath" = "T"
     }
+    "includes\\widgets\\school_query.php"
+    {
+    "ProjRelPath" = "T"
+    }
     "js"
     {
     "ProjRelPath" = "T"

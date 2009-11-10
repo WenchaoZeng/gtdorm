@@ -37,6 +37,20 @@ $(document).ready
 		)
 	}
 );
+
+$(document).ready
+(
+	function()
+	{
+		$("#school").click
+		(
+			function()
+			{
+				$("#show").load("../../includes/widgets/school_query.php");
+			}
+		)
+	}
+);
 </script>
 </head>
 <body onfocus="change_query()">
@@ -127,7 +141,7 @@ $(document).ready
 <option>107</option>
 </select>
 
-<input type="submit" value="²éÑ¯" name="region">
+<input id="school" type="button" value="²éÑ¯" name="region">
 
 </fieldset>
 </div>
