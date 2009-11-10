@@ -424,6 +424,10 @@
     {
     "ProjRelPath" = "T"
     }
+    "includes\\widgets\\department_query.php"
+    {
+    "ProjRelPath" = "T"
+    }
     "styles\\image\\nav-item-down-bg.png"
     {
     "ProjRelPath" = "T"

@@ -23,7 +23,20 @@ $(document).ready
 			}
 		)
 	}
-)
+);
+$(document).ready
+(
+	function()
+	{
+		$("#department").click
+		(
+			function()
+			{
+				$("#show").load("../../includes/widgets/department_query.php");
+			}
+		)
+	}
+);
 </script>
 </head>
 <body onfocus="change_query()">
@@ -72,7 +85,7 @@ $(document).ready
 <option>通信0602</option>
 </select>
 
-<input type="submit" value=" 查询">
+<input id="department" type="button" value=" 查询">
 </fieldset>
 
 <!--区域信息查询-->
