@@ -10,6 +10,21 @@ session_start();
 <script src="../../js/studentinfo_input.js"></script>
 <script type="text/javascript" src="../../js/jquery-1.2.6.min.js"></script>
 <script type="text/javascript" src="../../js/dropdown.js"></script>
+<script type="text/javascript">
+$(document).ready
+(
+	function()
+	{
+		$("#person").click
+		(
+			function()
+			{
+				$("#show").load("../../includes/widgets/personal_query.php");
+			}
+		)
+	}
+)
+</script>
 </head>
 <body onfocus="change_query()">
 
@@ -32,7 +47,7 @@ session_start();
 <legend>个人查询</legend>
 <label id="id">学号:</label>
 <input type="text">
-<input type ="submit" value="查询" name="person">
+<input id="person" type ="button" value="查询" name="person">
 
 </fieldset>
 
@@ -105,68 +120,7 @@ session_start();
 </div>
 
 <table id="show" class="data_table">
-<tr class="table_head">
-	<th>学号</th><th>姓名</th><th>学院</th><th>班级</th><th>楼栋</th><th>宿舍</th>
-</tr>
 
-<tr>
-	<td>3060601019</td>
-	<td>李明</td>
-	<td>计算机学院</td>
-	<td>软件工程0602</td>
-	<td>三区五栋</td>
-	<td>109</td>
-</tr>
-
-<tr>
-	<td>3060601018</td>
-	<td>陈芳</td>
-	<td>计算机学院</td>
-	<td>软件工程0602</td>
-	<td>三区五栋</td>
-	<td>109</td>
-</tr>
-
-
-<tr>
-	<td>3060601017</td>
-	<td>方浩</td>
-	<td>计算机学院</td>
-	<td>软件工程0602</td>
-	<td>三区五栋</td>
-	<td>107</td>
-</tr>
-
-
-<tr>
-	<td>3060601011</td>
-	<td>薛明</td>
-	<td>计算机学院</td>
-	<td>软件工程0602</td>
-	<td>三区五栋</td>
-	<td>107</td>
-</tr>
-
-
-
-<tr>
-	<td>3060601016</td>
-	<td>成成</td>
-	<td>计算机学院</td>
-	<td>软件工程0602</td>
-	<td>三区五栋</td>
-	<td>106</td>
-</tr>
-
-
-<tr>
-	<td>3060601015</td>
-	<td>云蕾</td>
-	<td>计算机学院</td>
-	<td>软件工程0602</td>
-	<td>三区五栋</td>
-	<td>105</td>
-</tr>
 </table>
 
 </form>
